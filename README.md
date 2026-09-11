@@ -86,6 +86,9 @@ bindings.
 | `npm run test:browser` | Browser gameplay and interface tests | Yes |
 | `npm run build` | Playable static build in `dist`, with split animations | Yes |
 | `npm run preview` | Serve the production build | Build required |
+| `npm run cloudflare:dev` | Build and preview with Cloudflare's Pages runtime | Yes |
+| `npm run test:pages` | Build and check Pages routing, caching and gameplay | Yes |
+| `npm run cloudflare:deploy` | Build and upload to the configured Pages project | Yes |
 
 GitHub CI runs `npm run check` on Linux and Windows. It does **not** establish
 gameplay correctness; simulation, browser and original-disc checks require

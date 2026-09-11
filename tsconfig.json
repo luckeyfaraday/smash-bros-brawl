@@ -5,5 +5,5 @@
     "skipLibCheck": true, "noEmit": true, "resolveJsonModule": true,
     "allowImportingTsExtensions": true, "types": ["vite/client", "node"]
   },
-  "include": ["src", "tests", "playwright.config.ts", "tools/trace_replay.ts", "tools/pages_assets.ts"]
+  "include": ["src", "tests", "playwright*.config.ts", "tools/trace_replay.ts", "tools/pages_assets.ts"]
 }

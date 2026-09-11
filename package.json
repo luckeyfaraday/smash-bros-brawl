@@ -23,9 +23,13 @@
     "build:client": "vite build --outDir dist-client",
     "build": "npm run typecheck && vite build && tsx tools/pages_assets.ts",
     "preview": "vite preview --host 127.0.0.1",
+    "cloudflare:stage": "npm run build",
+    "cloudflare:dev": "npm run cloudflare:stage && wrangler pages dev --ip 127.0.0.1",
+    "cloudflare:deploy": "npm run cloudflare:stage && wrangler pages deploy --branch main",
     "test": "node --import tsx --test tests/*.test.ts tests/*.test.mjs",
     "test:unit": "node --import tsx --test tests/assets.test.ts tests/game-input.test.ts tests/*.test.mjs",
     "test:browser": "playwright test",
+    "test:pages": "npm run cloudflare:stage && playwright test --config playwright.pages.config.ts",
     "trace:replay": "tsx tools/trace_replay.ts",
     "ai:export": "python tools/ai_dump.py --runtime src/data/cpu-ai.json",
     "ai:probe": "python tools/probe_ai_native.py",
@@ -42,6 +46,7 @@
     "@types/three": "^0.185.4",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2",
-    "vite": "^8.2.2"
+    "vite": "^8.2.2",
+    "wrangler": "4.131.1"
   }
 }

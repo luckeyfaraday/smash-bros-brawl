@@ -1,0 +1,7 @@
+# Manifests use stable URLs and must be checked after each deployment.
+/assets/:fighter/motion.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Chunk names contain a hash of their contents, so browsers can retain them.
+/assets/:fighter/motion-clips-*.json
+  Cache-Control: public, max-age=31536000, immutable
