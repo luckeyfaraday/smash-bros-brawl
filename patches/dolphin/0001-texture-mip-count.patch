@@ -1,0 +1,59 @@
+--- a/Source/Core/VideoBackends/WebGPU/WebGPUCommandStream.h
++++ b/Source/Core/VideoBackends/WebGPU/WebGPUCommandStream.h
+@@ -70,6 +70,7 @@
+   //   arena; the consumer queue.writeBuffers straight from there.)
+   UploadBuffer = 6,
+   //   CreateTexture:  u0=id u1=w u2=h u3=wgpuFormat u4=usageFlags
++  //                   u5=layers u6=mipLevels (legacy 0 means 1)
+   CreateTexture = 7,
+   //   UploadTexture:  u0=id u1=srcHeapPtr u2=bytesPerRow u3=w u4=h
+   //                   u5=mipLevel u6=layer
+@@ -346,7 +347,8 @@
+                        BufferResourceRole role = BufferResourceRole::Unknown);
+   bool PushUploadBuffer(u32 id, u32 dst_offset, u32 src_heap_ptr, u32 len,
+                         BufferUploadRole role);
+-  u32 PushCreateTexture(u32 w, u32 h, u32 wgpu_format, u32 usage_flags, u32 layers = 1);
++  u32 PushCreateTexture(u32 w, u32 h, u32 wgpu_format, u32 usage_flags,
++                        u32 layers = 1, u32 mip_levels = 1);
+   bool PushUploadTexture(u32 id, u32 src_heap_ptr, u32 bytes_per_row, u32 w, u32 h,
+                          u32 mip_level = 0, u32 layer = 0);
+   // Serialized AbstractPipelineConfig blob (owned/persistent, like
+--- a/Source/Core/VideoBackends/WebGPU/WebGPUCommandStream.cpp
++++ b/Source/Core/VideoBackends/WebGPU/WebGPUCommandStream.cpp
+@@ -1053,7 +1053,7 @@
+ }
+ 
+ u32 WebGPUCommandStream::PushCreateTexture(u32 w, u32 h, u32 wgpu_format, u32 usage_flags,
+-                                           u32 layers)
++                                           u32 layers, u32 mip_levels)
+ {
+   if (!m_header)
+   {
+@@ -1069,6 +1069,7 @@
+   rec.arg.u[3] = wgpu_format;
+   rec.arg.u[4] = usage_flags;
+   rec.arg.u[5] = layers ? layers : 1;
++  rec.arg.u[6] = mip_levels ? mip_levels : 1;
+   if (!Push(rec))
+     return 0;
+   return id;
+--- a/Source/Core/VideoBackends/WebGPU/WebGPUTexture.cpp
++++ b/Source/Core/VideoBackends/WebGPU/WebGPUTexture.cpp
+@@ -67,7 +67,7 @@
+   {
+     m_bridge_id = cs.PushCreateTexture(tex_config.width, tex_config.height,
+                                        MapTexFormat(tex_config.format), kTexUsage,
+-                                       tex_config.layers);
++                                       tex_config.layers, tex_config.levels);
+   }
+ }
+ 
+@@ -80,7 +80,7 @@
+   if (cs.ready())
+     m_bridge_id = cs.PushCreateTexture(m_config.width, m_config.height,
+                                        MapTexFormat(m_config.format), kTexUsage,
+-                                       m_config.layers);
++                                       m_config.layers, m_config.levels);
+   return m_bridge_id;
+ }
+ 

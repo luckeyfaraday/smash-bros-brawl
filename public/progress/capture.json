@@ -1,0 +1,135 @@
+{
+  "build": "004",
+  "source": "http://127.0.0.1:5174/",
+  "capturedAt": "2026-09-08T03:36:15.628Z",
+  "width": 1265,
+  "height": 556,
+  "stage": {
+    "id": "final-destination",
+    "name": "Final Destination",
+    "sourceFloor": 0.64,
+    "left": -86.876,
+    "right": 86.876,
+    "floor": 0,
+    "blastX": 240,
+    "blastBottom": -115.64,
+    "blastTop": 179.36,
+    "modelLoaded": true
+  },
+  "snapshot": {
+    "frame": 19,
+    "player": {
+      "x": 0.33999999999999764,
+      "y": 5.466,
+      "vx": 0.6699999999999997,
+      "vy": 1.2540000000000002,
+      "facing": 1,
+      "grounded": false,
+      "jumps": 1,
+      "state": "aerial",
+      "age": 2,
+      "clip": "AttackAirN",
+      "poseFrame": 2,
+      "damage": 0,
+      "hitlag": 6,
+      "hitstun": 0,
+      "fastfall": false,
+      "shortHop": true
+    },
+    "dummy": {
+      "x": 5,
+      "y": 0,
+      "vx": 1.3945454545454545,
+      "vy": 0,
+      "facing": -1,
+      "grounded": true,
+      "jumps": 0,
+      "state": "hitstun",
+      "age": 0,
+      "clip": "DamageN1",
+      "poseFrame": 0,
+      "damage": 10,
+      "hitlag": 6,
+      "hitstun": 18,
+      "fastfall": false,
+      "shortHop": false
+    },
+    "previous": {
+      "axis": 0,
+      "jump": false,
+      "attack": false,
+      "run": false,
+      "down": false
+    },
+    "script": {
+      "wake": 5,
+      "stack": [
+        {
+          "pc": 5,
+          "offsets": [
+            75000,
+            75008,
+            75016,
+            75024,
+            75032,
+            75040,
+            75048,
+            75056,
+            75064,
+            75072,
+            75080
+          ]
+        }
+      ],
+      "hitboxes": [
+        {
+          "id": 0,
+          "bone": 17,
+          "damage": 10,
+          "angle": 361,
+          "growth": 100,
+          "fixed": 0,
+          "base": 20,
+          "radius": 4,
+          "offset": [
+            0,
+            0.8,
+            0
+          ],
+          "hitlag": 1
+        },
+        {
+          "id": 1,
+          "bone": 12,
+          "damage": 10,
+          "angle": 361,
+          "growth": 100,
+          "fixed": 0,
+          "base": 20,
+          "radius": 4,
+          "offset": [
+            0,
+            -0.8,
+            0
+          ],
+          "hitlag": 1
+        }
+      ],
+      "variables": [
+        570425374
+      ],
+      "interruptible": false,
+      "error": null
+    },
+    "comboQueued": false,
+    "hasHit": true,
+    "hits": 1,
+    "lastHit": {
+      "frame": 19,
+      "move": "AttackAirN",
+      "damage": 10,
+      "knockback": 46.484848484848484,
+      "hitbox": 0
+    }
+  }
+}

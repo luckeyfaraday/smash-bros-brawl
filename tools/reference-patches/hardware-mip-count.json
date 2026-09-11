@@ -1,0 +1,19 @@
+{
+  "name": "Allocate configured mip levels (requires texture-mip-count core patch)",
+  "file": "src/upstream-discio-worker.js",
+  "baseSha256": "57cbd1596449d6ea2b65789d8850db2ebb4d7079b273ec72370967eba66b935c",
+  "replacements": [
+    {
+      "before": "              format: fmt, usage: u32[recWord + 5]",
+      "after": "              // CreateTexture payload u6 carries TextureConfig.levels.\n              // Older cores leave it zero and retain their one-level allocation.\n              mipLevelCount: u32[recWord + 7] || 1,\n              format: fmt, usage: u32[recWord + 5]"
+    },
+    {
+      "before": "            colorView = ct.tex.createView();",
+      "after": "            colorView = ct.tex.createView({ baseMipLevel: 0, mipLevelCount: 1 });"
+    },
+    {
+      "before": "              view: dt.tex.createView(),",
+      "after": "              view: dt.tex.createView({ baseMipLevel: 0, mipLevelCount: 1 }),"
+    }
+  ]
+}

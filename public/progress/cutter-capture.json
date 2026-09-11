@@ -1,0 +1,1169 @@
+{
+  "build": 13,
+  "capturedAt": "2026-09-08T07:28:39.248Z",
+  "captures": [
+    {
+      "file": "cutter-rise.png",
+      "state": {
+        "frame": 35,
+        "player": {
+          "x": -12,
+          "y": 47.22753,
+          "vx": 0,
+          "vy": 2.291470000000004,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "special",
+          "age": 6,
+          "clip": "SpecialHi2",
+          "poseFrame": 6,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 4.679129574738525,
+          "y": 16.80765435167532,
+          "vx": -0.05347840421024561,
+          "vy": 2.6137757252792198,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 6,
+          "clip": "DamageN1",
+          "poseFrame": 6,
+          "damage": 8,
+          "hitlag": 0,
+          "hitstun": 34,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "arc",
+          "air": false,
+          "rootY": 47.22753,
+          "ceiling": false
+        },
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 18,
+          "stack": [
+            {
+              "pc": 8,
+              "offsets": [
+                177000,
+                177008,
+                177016,
+                177024,
+                177032,
+                177040,
+                177048,
+                177056,
+                177064,
+                177072,
+                177080
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 1,
+          "hurtState": 0,
+          "ledgeGrab": 2,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 24,
+          "move": "SpecialHi2",
+          "damage": 8,
+          "knockback": 102.14141414141415,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-descent.png",
+      "state": {
+        "frame": 59,
+        "player": {
+          "x": -12,
+          "y": 35.0988121,
+          "vx": 0,
+          "vy": -3.9552421999999936,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "special",
+          "age": 27,
+          "clip": "SpecialHi2",
+          "poseFrame": 27,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 6.158125642746311,
+          "y": 30.802963055025934,
+          "vx": 0.23563743539230408,
+          "vy": -1.28,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 27,
+          "clip": "DamageN1",
+          "poseFrame": 9,
+          "damage": 10,
+          "hitlag": 0,
+          "hitstun": 27,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "arc",
+          "air": false,
+          "rootY": 35.0988121,
+          "ceiling": false
+        },
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 26,
+          "stack": [],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 440,
+              "damage": 2,
+              "angle": 275,
+              "growth": 100,
+              "fixed": 100,
+              "base": 0,
+              "radius": 6,
+              "offset": [
+                0,
+                8,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 1,
+          "hurtState": 0,
+          "ledgeGrab": 2,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 2,
+        "lastHit": {
+          "frame": 47,
+          "move": "SpecialHi2",
+          "damage": 2,
+          "knockback": 90.1212121212121,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-landing-wave.png",
+      "state": {
+        "frame": 73,
+        "player": {
+          "x": -12,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "special",
+          "age": 4,
+          "clip": "SpecialHi4",
+          "poseFrame": 4,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 9.457049738238569,
+          "y": 12.882963055025924,
+          "vx": 0.23563743539230408,
+          "vy": -1.28,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 41,
+          "clip": "DamageN1",
+          "poseFrame": 23,
+          "damage": 10,
+          "hitlag": 0,
+          "hitstun": 13,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "land",
+          "air": false,
+          "rootY": 4.687057,
+          "ceiling": false
+        },
+        "waves": [
+          {
+            "id": 0,
+            "owner": 0,
+            "x": 20,
+            "y": 0,
+            "previousX": 14,
+            "previousY": 0,
+            "vy": 0,
+            "facing": 1,
+            "age": 4,
+            "spent": false,
+            "script": {
+              "wake": 2,
+              "stack": [],
+              "hitboxes": [
+                {
+                  "id": 0,
+                  "bone": 0,
+                  "damage": 6,
+                  "angle": 361,
+                  "growth": 30,
+                  "fixed": 0,
+                  "base": 60,
+                  "radius": 3.84,
+                  "offset": [
+                    0,
+                    5.6,
+                    -5.6
+                  ],
+                  "hitlag": 1,
+                  "specialFlags": 30408641
+                }
+              ],
+              "variables": [],
+              "interruptible": false,
+              "error": null,
+              "hitboxEpoch": 0,
+              "hurtState": 0,
+              "ledgeGrab": 0,
+              "integers": [],
+              "generatedArticles": []
+            }
+          }
+        ],
+        "nextWave": 1,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 2,
+        "lastHit": {
+          "frame": 47,
+          "move": "SpecialHi2",
+          "damage": 2,
+          "knockback": 90.1212121212121,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-wave.png",
+      "state": {
+        "frame": 105,
+        "player": {
+          "x": -46.80000000000003,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "special",
+          "age": 3,
+          "clip": "SpecialHi4",
+          "poseFrame": 3,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 105,
+          "clip": "Wait1",
+          "poseFrame": 105,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "land",
+          "air": false,
+          "rootY": 4.687057,
+          "ceiling": false
+        },
+        "waves": [
+          {
+            "id": 0,
+            "owner": 0,
+            "x": -20.800000000000033,
+            "y": 0,
+            "previousX": -26.800000000000033,
+            "previousY": 0,
+            "vy": 0,
+            "facing": 1,
+            "age": 3,
+            "spent": false,
+            "script": {
+              "wake": 2,
+              "stack": [],
+              "hitboxes": [
+                {
+                  "id": 0,
+                  "bone": 0,
+                  "damage": 6,
+                  "angle": 361,
+                  "growth": 30,
+                  "fixed": 0,
+                  "base": 60,
+                  "radius": 3.84,
+                  "offset": [
+                    0,
+                    5.6,
+                    -5.6
+                  ],
+                  "hitlag": 1,
+                  "specialFlags": 30408641
+                }
+              ],
+              "variables": [],
+              "interruptible": false,
+              "error": null,
+              "hitboxEpoch": 0,
+              "hurtState": 0,
+              "ledgeGrab": 0,
+              "integers": [],
+              "generatedArticles": []
+            }
+          }
+        ],
+        "nextWave": 1,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-wave-hit.png",
+      "state": {
+        "frame": 109,
+        "player": {
+          "x": -46.80000000000003,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "special",
+          "age": 7,
+          "clip": "SpecialHi4",
+          "poseFrame": 7,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 1.4333172494384143,
+          "vy": 1.3841383785200274,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 6,
+          "hitlag": 5,
+          "hitstun": 26,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "land",
+          "air": false,
+          "rootY": 4.687057,
+          "ceiling": false
+        },
+        "waves": [],
+        "nextWave": 1,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 109,
+          "move": "FinalCutterRegular",
+          "damage": 6,
+          "knockback": 66.41818181818182,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-offstage.png",
+      "state": {
+        "frame": 109,
+        "player": {
+          "x": 114.53199999999983,
+          "y": -25.989999999999984,
+          "vx": 0.85,
+          "vy": -1.2,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "air",
+          "age": 30,
+          "clip": "Fall",
+          "poseFrame": 31,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 109,
+          "clip": "Wait1",
+          "poseFrame": 109,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 1,
+          "jump": false,
+          "attack": false,
+          "run": true,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": -1
+        },
+        "quickAttack": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-recovery.png",
+      "state": {
+        "frame": 148,
+        "player": {
+          "x": 103.65199999999972,
+          "y": 33.54672410000002,
+          "vx": -0.68,
+          "vy": 0.5605965000000026,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "special",
+          "age": 15,
+          "clip": "SpecialAirHi2",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 148,
+          "clip": "Wait1",
+          "poseFrame": 148,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": -1,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": {
+          "phase": "arc",
+          "air": true,
+          "rootY": 59.5367241,
+          "ceiling": false
+        },
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 18,
+          "stack": [
+            {
+              "pc": 8,
+              "offsets": [
+                177000,
+                177008,
+                177016,
+                177024,
+                177032,
+                177040,
+                177048,
+                177056,
+                177064,
+                177072,
+                177080
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 1,
+          "hurtState": 0,
+          "ledgeGrab": 2,
+          "integers": [],
+          "generatedArticles": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "cutter-return.png",
+      "state": {
+        "frame": 252,
+        "player": {
+          "x": 83.87795312,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 31,
+          "clip": "Wait1",
+          "poseFrame": 31,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 252,
+          "clip": "Wait1",
+          "poseFrame": 252,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    }
+  ]
+}

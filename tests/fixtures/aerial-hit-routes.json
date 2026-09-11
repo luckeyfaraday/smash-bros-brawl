@@ -1,0 +1,778 @@
+[
+  {
+    "id": "mario",
+    "suffix": "F",
+    "steps": [
+      {
+        "frames": 5,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      }
+    ],
+    "frame": 32,
+    "clip": "AttackAirF",
+    "age": 20,
+    "damage": 10,
+    "lastHit": {
+      "frame": 32,
+      "move": "AttackAirF",
+      "damage": 10,
+      "knockback": 41.18787878787879,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "mario",
+    "suffix": "B",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyA"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      }
+    ],
+    "frame": 23,
+    "clip": "AttackAirB",
+    "age": 5,
+    "damage": 12,
+    "lastHit": {
+      "frame": 23,
+      "move": "AttackAirB",
+      "damage": 12,
+      "knockback": 38.384848484848476,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "mario",
+    "suffix": "Hi",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyW",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 3,
+        "keys": []
+      }
+    ],
+    "frame": 20,
+    "clip": "AttackAirHi",
+    "age": 3,
+    "damage": 11,
+    "lastHit": {
+      "frame": 20,
+      "move": "AttackAirHi",
+      "damage": 11,
+      "knockback": 37.11111111111111,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "mario",
+    "suffix": "Lw",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyS",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      }
+    ],
+    "frame": 21,
+    "clip": "AttackAirLw",
+    "age": 4,
+    "damage": 1,
+    "lastHit": {
+      "frame": 21,
+      "move": "AttackAirLw",
+      "damage": 1,
+      "knockback": 26.484848484848484,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "link",
+    "suffix": "F",
+    "steps": [
+      {
+        "frames": 5,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 7,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 25,
+        "keys": []
+      }
+    ],
+    "frame": 39,
+    "clip": "AttackAirF",
+    "age": 25,
+    "damage": 12,
+    "lastHit": {
+      "frame": 39,
+      "move": "AttackAirF",
+      "damage": 12,
+      "knockback": 52.86666666666666,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "link",
+    "suffix": "B",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyA"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 7,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      }
+    ],
+    "frame": 25,
+    "clip": "AttackAirB",
+    "age": 5,
+    "damage": 4,
+    "lastHit": {
+      "frame": 25,
+      "move": "AttackAirB",
+      "damage": 4,
+      "knockback": 47.69696969696969,
+      "hitbox": 2,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "link",
+    "suffix": "Lw",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 7,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyS",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 13,
+        "keys": []
+      }
+    ],
+    "frame": 32,
+    "clip": "AttackAirLw",
+    "age": 13,
+    "damage": 22,
+    "lastHit": {
+      "frame": 32,
+      "move": "AttackAirLw",
+      "damage": 22,
+      "knockback": 74.26666666666668,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "kirby",
+    "suffix": "F",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 9,
+        "keys": []
+      }
+    ],
+    "frame": 25,
+    "clip": "AttackAirF",
+    "age": 9,
+    "damage": 4,
+    "lastHit": {
+      "frame": 25,
+      "move": "AttackAirF",
+      "damage": 4,
+      "knockback": 44.848484848484844,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "kirby",
+    "suffix": "B",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyA"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 5,
+        "keys": []
+      }
+    ],
+    "frame": 22,
+    "clip": "AttackAirB",
+    "age": 5,
+    "damage": 12,
+    "lastHit": {
+      "frame": 22,
+      "move": "AttackAirB",
+      "damage": 12,
+      "knockback": 51.372727272727275,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "kirby",
+    "suffix": "Hi",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyW",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      }
+    ],
+    "frame": 30,
+    "clip": "AttackAirHi",
+    "age": 14,
+    "damage": 10,
+    "lastHit": {
+      "frame": 30,
+      "move": "AttackAirHi",
+      "damage": 10,
+      "knockback": 45.95515151515151,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "kirby",
+    "suffix": "Lw",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyS",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 17,
+        "keys": []
+      }
+    ],
+    "frame": 33,
+    "clip": "AttackAirLw",
+    "age": 17,
+    "damage": 2,
+    "lastHit": {
+      "frame": 33,
+      "move": "AttackAirLw",
+      "damage": 2,
+      "knockback": 39.86525252525253,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "pikachu",
+    "suffix": "F",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 9,
+        "keys": []
+      }
+    ],
+    "frame": 25,
+    "clip": "AttackAirF",
+    "age": 9,
+    "damage": 2,
+    "lastHit": {
+      "frame": 25,
+      "move": "AttackAirF",
+      "damage": 2,
+      "knockback": 43.71313131313131,
+      "hitbox": 1,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "pikachu",
+    "suffix": "B",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyA"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 3,
+        "keys": []
+      }
+    ],
+    "frame": 20,
+    "clip": "AttackAirB",
+    "age": 3,
+    "damage": 1,
+    "lastHit": {
+      "frame": 20,
+      "move": "AttackAirB",
+      "damage": 1,
+      "knockback": 47.69696969696969,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "pikachu",
+    "suffix": "Hi",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyW",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 2,
+        "keys": []
+      }
+    ],
+    "frame": 18,
+    "clip": "AttackAirHi",
+    "age": 2,
+    "damage": 6,
+    "lastHit": {
+      "frame": 18,
+      "move": "AttackAirHi",
+      "damage": 6,
+      "knockback": 52.836363636363636,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "pikachu",
+    "suffix": "Lw",
+    "steps": [
+      {
+        "frames": 10,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "Space"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyS",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 13,
+        "keys": []
+      }
+    ],
+    "frame": 29,
+    "clip": "AttackAirLw",
+    "age": 13,
+    "damage": 12,
+    "lastHit": {
+      "frame": 29,
+      "move": "AttackAirLw",
+      "damage": 12,
+      "knockback": 43.9030303030303,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  },
+  {
+    "id": "link",
+    "suffix": "Hi",
+    "options": {
+      "mode": "battle",
+      "opponent": "local",
+      "fighters": [
+        "link",
+        "mario"
+      ]
+    },
+    "steps": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 45,
+        "keys": [
+          "KeyD",
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 4,
+        "keys": [
+          "Enter"
+        ]
+      },
+      {
+        "frames": 8,
+        "keys": [
+          "Space",
+          "Enter"
+        ]
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyW",
+          "KeyJ"
+        ]
+      },
+      {
+        "frames": 10,
+        "keys": []
+      }
+    ],
+    "frame": 248,
+    "clip": "AttackAirHi",
+    "age": 10,
+    "damage": 15,
+    "lastHit": {
+      "frame": 248,
+      "move": "AttackAirHi",
+      "damage": 15,
+      "knockback": 48.625757575757575,
+      "hitbox": 0,
+      "attacker": 0,
+      "blocked": false
+    }
+  }
+]

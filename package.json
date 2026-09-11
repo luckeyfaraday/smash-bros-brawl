@@ -1,0 +1,30 @@
+{
+  "name": "brawl-browser-lab",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && tsx tools/pages_assets.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "trace:replay": "tsx tools/trace_replay.ts",
+    "ai:export": "python tools/ai_dump.py --runtime src/data/cpu-ai.json",
+    "ai:probe": "python tools/probe_ai_native.py",
+    "test:ai-source": "python -m unittest discover -s tests -p ai_source_test.py",
+    "reference:serve": "node tools/serve_reference.mjs",
+    "reference:probe": "node tools/probe_reference.mjs"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0",
+    "@types/three": "^0.185.4",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}

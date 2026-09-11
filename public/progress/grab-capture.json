@@ -1,0 +1,6050 @@
+{
+  "build": 21,
+  "capturedAt": "2026-09-08T13:29:25.473Z",
+  "method": "Actual keyboard controls in the paused main app; N advances simulation. No simulation-state mutation.",
+  "captures": [
+    {
+      "name": "grab-mario-hold",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 26,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 14,
+          "clip": "CatchWait",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -3.620045418,
+          "y": 2.3336233600000007,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 14,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": true
+        },
+        "grab": {
+          "phase": "hold",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 14,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 1014
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-mario-pummel",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 16,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 43,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 15,
+          "clip": "CatchAttack",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 3,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -4.272867999999999,
+          "y": 2.4201879999999996,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 30,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 30,
+          "damage": 3,
+          "hitlag": 3,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "pummel",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 30,
+          "remaining": 60,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 0
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 16,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                78680,
+                78688,
+                78696,
+                78704
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 30,
+              "base": 0,
+              "radius": 5,
+              "offset": [
+                0,
+                10,
+                10
+              ],
+              "hitlag": 1,
+              "specialFlags": 139460547
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 42,
+          "move": "CatchAttack",
+          "damage": 3,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-mario-throw",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 16,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 87,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "ThrowB",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -0.018979930000000422,
+          "y": -6.310459300000001,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 71,
+          "clip": "ThrownMarioB",
+          "poseFrame": 8,
+          "damage": 3,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 71,
+          "remaining": 28,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 41
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 43,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                79408,
+                79416,
+                79424,
+                79432,
+                79440
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 12,
+              "angle": 45,
+              "growth": 63,
+              "fixed": 0,
+              "base": 70,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 42,
+          "move": "CatchAttack",
+          "damage": 3,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-mario-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 16,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 124,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 45,
+          "clip": "ThrowB",
+          "poseFrame": 45,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -15.388923686452438,
+          "y": 10.67813478645244,
+          "vx": -1.9239218432262197,
+          "vy": 1.7739218432262194,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 15,
+          "hitlag": 0,
+          "hitstun": 34,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 43,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 12,
+              "angle": 45,
+              "growth": 63,
+              "fixed": 0,
+              "base": 70,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": true,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 2,
+        "lastHit": {
+          "frame": 122,
+          "move": "ThrowB",
+          "damage": 12,
+          "knockback": 90.69454545454545,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-link-hold",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 26,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "CatchWait",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -4.015719676,
+          "y": 2.04373837,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 8,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": true
+        },
+        "grab": {
+          "phase": "hold",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 8,
+          "remaining": 82,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 1008
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-link-pummel",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 36,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "CatchAttack",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 2,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -4.216815,
+          "y": 2.13945866,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 17,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 17,
+          "damage": 2,
+          "hitlag": 2,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "pummel",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 17,
+          "remaining": 73,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 0
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 9,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                98592,
+                98600,
+                98608,
+                98616,
+                98624,
+                98632
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 24,
+              "damage": 2,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 0,
+              "radius": 4.8,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1,
+              "specialFlags": 139460547
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 35,
+          "move": "CatchAttack",
+          "damage": 2,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-link-throw",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 80,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "ThrowHi",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -6.713683659999999,
+          "y": 22.13531115,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 59,
+          "clip": "ThrownLinkHi",
+          "poseFrame": 8,
+          "damage": 2,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 59,
+          "remaining": 40,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 42
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 25,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                100584,
+                100592,
+                100600,
+                100608,
+                100616,
+                100624,
+                100632,
+                100640,
+                100648,
+                100656,
+                100664
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 90,
+              "growth": 230,
+              "fixed": 0,
+              "base": 24,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 35,
+          "move": "CatchAttack",
+          "damage": 2,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-link-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 105,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 29,
+          "clip": "ThrowHi",
+          "poseFrame": 29,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -8.80814862,
+          "y": 28.987880427272728,
+          "vx": 1.3089247652341302e-16,
+          "vy": 1.9876363636363632,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 9,
+          "hitlag": 0,
+          "hitstun": 26,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 49,
+          "stack": [
+            {
+              "pc": 10,
+              "offsets": [
+                100584,
+                100592,
+                100600,
+                100608,
+                100616,
+                100624,
+                100632,
+                100640,
+                100648,
+                100656,
+                100664
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 90,
+              "growth": 230,
+              "fixed": 0,
+              "base": 24,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 1,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 3,
+        "lastHit": {
+          "frame": 103,
+          "move": "ThrowHi",
+          "damage": 2,
+          "knockback": 71.25454545454545,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-hold",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 26,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 14,
+          "clip": "CatchWait",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 2.2678978819999998,
+          "y": 2.09967436,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 14,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": true
+        },
+        "grab": {
+          "phase": "hold",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 14,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 1014
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-pummel",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 36,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "CatchAttack",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 2,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 1.1017801999999994,
+          "y": 2.2165013699999996,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 23,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 23,
+          "damage": 1,
+          "hitlag": 2,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "pummel",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 23,
+          "remaining": 67,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 0
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 9,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                155488,
+                155496,
+                155504,
+                155512,
+                155520,
+                155528
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 440,
+              "damage": 1,
+              "angle": 80,
+              "growth": 100,
+              "fixed": 30,
+              "base": 0,
+              "radius": 5.5,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1,
+              "specialFlags": 139460547
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 35,
+          "move": "CatchAttack",
+          "damage": 1,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-throw",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 25,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 97,
+        "player": {
+          "x": -16.792565490869997,
+          "y": 21.433536299999997,
+          "vx": 0.3035004499999996,
+          "vy": 0.16440389999999994,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "grab",
+          "age": 25,
+          "clip": "ThrowF",
+          "poseFrame": 25,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -19.731368560869996,
+          "y": 32.16604829999999,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 82,
+          "clip": "ThrownKirbyF",
+          "poseFrame": 25,
+          "damage": 1,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 82,
+          "remaining": 34,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 59
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 34,
+          "stack": [
+            {
+              "pc": 5,
+              "offsets": [
+                155896,
+                155904,
+                155912,
+                155920,
+                155928,
+                155936,
+                155944
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 8,
+              "angle": 65,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425360
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 35,
+          "move": "CatchAttack",
+          "damage": 1,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 9,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 25,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 118,
+        "player": {
+          "x": -8.218432840869996,
+          "y": 4.347598439999998,
+          "vx": -0.10275852000000008,
+          "vy": 1.2787005899999997,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "grab",
+          "age": 46,
+          "clip": "ThrowF",
+          "poseFrame": 46,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -3.6248638737113668,
+          "y": 3.2749958903015353,
+          "vx": 0.8160374435793141,
+          "vy": 1.5999979451507678,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 9,
+          "hitlag": 0,
+          "hitstun": 23,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 44,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 8,
+              "angle": 65,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425360
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 2,
+        "lastHit": {
+          "frame": 116,
+          "move": "ThrowF",
+          "damage": 8,
+          "knockback": 64.36363636363636,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-pikachu-hold",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 26,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 14,
+          "clip": "CatchWait",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -3.370045418,
+          "y": 2.0996713600000003,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 14,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": true
+        },
+        "grab": {
+          "phase": "hold",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 14,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 1014
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-pikachu-pummel",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 3,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 30,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 2,
+          "clip": "CatchAttack",
+          "poseFrame": 2,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -3.4668150000000004,
+          "y": 2.13945866,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 17,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 17,
+          "damage": 2,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "pummel",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 17,
+          "remaining": 73,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 0
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 3,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                72072,
+                72080,
+                72088,
+                72096,
+                72104,
+                72112
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 2,
+              "damage": 2,
+              "angle": 80,
+              "growth": 100,
+              "fixed": 30,
+              "base": 0,
+              "radius": 7,
+              "offset": [
+                0,
+                9,
+                9
+              ],
+              "hitlag": 0.5,
+              "specialFlags": 139460547
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 29,
+          "move": "CatchAttack",
+          "damage": 2,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-pikachu-throw",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 3,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 74,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 8,
+          "clip": "ThrowF",
+          "poseFrame": 8,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -6.029994940000002,
+          "y": 11.600755679999999,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 61,
+          "clip": "ThrownPikachuF",
+          "poseFrame": 8,
+          "damage": 2,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 61,
+          "remaining": 38,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 44
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 10,
+          "stack": [
+            {
+              "pc": 3,
+              "offsets": [
+                72600,
+                72608,
+                72616,
+                72624,
+                72632,
+                72640,
+                72648,
+                72656,
+                72664,
+                72672,
+                72680
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 45,
+              "growth": 110,
+              "fixed": 0,
+              "base": 45,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 1,
+        "lastHit": {
+          "frame": 29,
+          "move": "CatchAttack",
+          "damage": 2,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-pikachu-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 3,
+          "keys": []
+        },
+        {
+          "frames": 35,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 8,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 109,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 31,
+          "clip": "ThrowF",
+          "poseFrame": 31,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 3.066100084239083,
+          "y": 9.394080184239083,
+          "vx": 1.4538115421195417,
+          "vy": 1.3038115421195415,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 12,
+          "hitlag": 0,
+          "hitstun": 25,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 29,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 45,
+              "growth": 110,
+              "fixed": 0,
+              "base": 45,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 5,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 6,
+        "lastHit": {
+          "frame": 107,
+          "move": "ThrowF",
+          "damage": 2,
+          "knockback": 68.53333333333333,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-link-clawshot",
+      "steps": [
+        {
+          "frames": 45,
+          "keys": [
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 16,
+          "keys": [
+            "KeyF"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 62,
+        "player": {
+          "x": -60.50000000000006,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 15,
+          "clip": "Catch",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 62,
+          "clip": "Wait1",
+          "poseFrame": 62,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": true
+        },
+        "grab": {
+          "phase": "reach",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 19,
+          "stack": [
+            {
+              "pc": 10,
+              "offsets": [
+                97304,
+                97312,
+                97320,
+                97328,
+                97336,
+                97344,
+                97352,
+                97360,
+                97368,
+                97384,
+                97392,
+                97400,
+                97408,
+                97416,
+                97424,
+                97432,
+                97440
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [
+            {
+              "id": 0,
+              "bone": 79,
+              "radius": 2.8,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "targetMask": 1
+            },
+            {
+              "id": 1,
+              "bone": 58,
+              "radius": 1.5,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "targetMask": 3
+            },
+            {
+              "id": 2,
+              "bone": 58,
+              "radius": 4,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "targetMask": 1
+            }
+          ],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": {
+              "visible": true,
+              "returning": false,
+              "hand": 0
+            }
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-down",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 22,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 49,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 22,
+          "clip": "ThrowLw",
+          "poseFrame": 22,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -7.5792506031,
+          "y": 1.3331122399999997,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 37,
+          "clip": "ThrownKirbyLw",
+          "poseFrame": 22,
+          "damage": 4,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 37,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 2
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 24,
+          "stack": [
+            {
+              "pc": 8,
+              "offsets": [
+                157368,
+                157376,
+                157384,
+                157392,
+                157400,
+                157408,
+                157416,
+                157424,
+                157432,
+                157440,
+                157448,
+                157456,
+                157464,
+                157472,
+                157480,
+                157488
+              ],
+              "loops": [
+                {
+                  "start": 4,
+                  "remaining": 6
+                }
+              ]
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 90,
+              "growth": 140,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 4,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 4,
+        "lastHit": {
+          "frame": 47,
+          "move": "ThrowLw",
+          "damage": 1,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-down-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 22,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 89,
+        "player": {
+          "x": -9.9,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 59,
+          "clip": "ThrowLw",
+          "poseFrame": 59,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -5.35620644,
+          "y": 3.972090909090909,
+          "vx": 1.2849884868871591e-16,
+          "vy": 1.9485454545454546,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 12,
+          "hitlag": 0,
+          "hitstun": 25,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 87,
+          "stack": [
+            {
+              "pc": 15,
+              "offsets": [
+                157368,
+                157376,
+                157384,
+                157392,
+                157400,
+                157408,
+                157416,
+                157424,
+                157432,
+                157440,
+                157448,
+                157456,
+                157464,
+                157472,
+                157480,
+                157488
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 2,
+              "angle": 90,
+              "growth": 140,
+              "fixed": 0,
+              "base": 40,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 10,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 11,
+        "lastHit": {
+          "frame": 87,
+          "move": "ThrowLw",
+          "damage": 2,
+          "knockback": 69.95151515151515,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-up",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW"
+          ]
+        },
+        {
+          "frames": 30,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 57,
+        "player": {
+          "x": -9.9,
+          "y": 267.54187,
+          "vx": 0,
+          "vy": -1.925658999999996,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "grab",
+          "age": 30,
+          "clip": "ThrowHi",
+          "poseFrame": 30,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -2.43934503,
+          "y": 271.012016,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 45,
+          "clip": "ThrownKirbyHi",
+          "poseFrame": 30,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": {
+          "owner": 0,
+          "victim": 1,
+          "age": 45,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "from": {
+            "x": 5,
+            "y": 0
+          },
+          "damageAge": 1045
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 50,
+          "stack": [
+            {
+              "pc": 5,
+              "offsets": [
+                156704,
+                156712,
+                156720,
+                156728,
+                156736,
+                156744
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 10,
+              "angle": 85,
+              "growth": 70,
+              "fixed": 0,
+              "base": 70,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425360
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-kirby-up-launch",
+      "steps": [
+        {
+          "frames": 6,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyF"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW"
+          ]
+        },
+        {
+          "frames": 30,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 2,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 79,
+        "player": {
+          "x": -12.90871106872,
+          "y": 8.572143099999998,
+          "vx": -1.46502126,
+          "vy": 3.9449970000000008,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "grab",
+          "age": 52,
+          "clip": "ThrowHi",
+          "poseFrame": 52,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -1.4491870015270771,
+          "y": 6.033052248880838,
+          "vx": 0.23150149923646138,
+          "vy": 2.4960742444404196,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 2,
+          "clip": "DamageN1",
+          "poseFrame": 2,
+          "damage": 10,
+          "hitlag": 0,
+          "hitstun": 33,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 6,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false
+        },
+        "grab": {
+          "phase": "throw",
+          "facing": 1
+        },
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 50,
+          "stack": [],
+          "hitboxes": [],
+          "grabs": [],
+          "throws": [
+            {
+              "id": 0,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 10,
+              "angle": 85,
+              "growth": 70,
+              "fixed": 0,
+              "base": 70,
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "radius": 0,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "damage": 3,
+              "angle": 361,
+              "growth": 100,
+              "fixed": 0,
+              "base": 60,
+              "hitlag": 1
+            }
+          ],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425360
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 77,
+          "move": "ThrowHi",
+          "damage": 10,
+          "knockback": 88.53939393939393,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "grab-p2-shield",
+      "steps": [
+        {
+          "frames": 180,
+          "keys": []
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 5,
+          "keys": [
+            "ArrowLeft"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyK",
+            "BracketRight"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 295,
+        "player": {
+          "x": -57.24995458200003,
+          "y": 2.0996713600000003,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "captured",
+          "age": 14,
+          "clip": "CaptureWaitHi",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 59.25000000000001,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -50.72000000000003,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "grab",
+          "age": 14,
+          "clip": "CatchWait",
+          "poseFrame": 14,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": true,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "opponent": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": true
+          }
+        },
+        "grab": null,
+        "hold": {
+          "owner": 1,
+          "victim": 0,
+          "age": 14,
+          "remaining": 76,
+          "maximum": 90,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": true,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "opponent": {
+              "axis": 0,
+              "jump": false,
+              "attack": false,
+              "run": false,
+              "down": false,
+              "shield": false,
+              "smash": false,
+              "special": false,
+              "neutral": false,
+              "vertical": 0,
+              "grab": true
+            }
+          },
+          "from": {
+            "x": -60,
+            "y": 0
+          },
+          "damageAge": 1014
+        },
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": true
+          },
+          "script": {
+            "wake": 0,
+            "stack": [],
+            "hitboxes": [],
+            "grabs": [],
+            "throws": [],
+            "throwEvents": [],
+            "wind": null,
+            "variables": [],
+            "interruptible": false,
+            "error": null,
+            "hitboxEpoch": 0,
+            "hurtState": 0,
+            "ledgeGrab": 0,
+            "integers": [],
+            "generatedArticles": [],
+            "boneStates": [],
+            "articleVisibility": [],
+            "modelVisibility": [],
+            "grapple": {
+              "reverse": false,
+              "tether": null
+            }
+          },
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": {
+            "phase": "hold",
+            "facing": -1
+          }
+        },
+        "match": {
+          "options": {
+            "mode": "battle",
+            "opponent": "local",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "pikachu"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10685,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    }
+  ]
+}

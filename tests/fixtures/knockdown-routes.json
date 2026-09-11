@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "mario",
+    "slot": 0,
+    "fighter": "mario",
+    "opponent": "mario",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 44,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 32,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 108,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 44,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 32,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 138,
+        "keys": []
+      }
+    ],
+    "approachFrame": 722,
+    "posture": "U",
+    "launched": {
+      "frame": 620,
+      "damage": 39.199999999999996,
+      "hitstun": 40,
+      "kb": 102.08218181818181
+    }
+  },
+  {
+    "id": "mario",
+    "slot": 1,
+    "fighter": "mario",
+    "opponent": "mario",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 44,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 32,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 108,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 44,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 32,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 138,
+        "keys": []
+      }
+    ],
+    "approachFrame": 722,
+    "posture": "U",
+    "launched": {
+      "frame": 620,
+      "damage": 39.199999999999996,
+      "hitstun": 40,
+      "kb": 102.08218181818181
+    }
+  },
+  {
+    "id": "link",
+    "slot": 0,
+    "fighter": "link",
+    "opponent": "mario",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 48,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 35,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 84,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 48,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 35,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 114,
+        "keys": []
+      }
+    ],
+    "approachFrame": 705,
+    "posture": "D",
+    "launched": {
+      "frame": 626,
+      "damage": 39.199999999999996,
+      "hitstun": 40,
+      "kb": 100.49741176470587
+    }
+  },
+  {
+    "id": "link",
+    "slot": 1,
+    "fighter": "mario",
+    "opponent": "link",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 48,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 35,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 84,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 48,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 35,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 114,
+        "keys": []
+      }
+    ],
+    "approachFrame": 705,
+    "posture": "D",
+    "launched": {
+      "frame": 626,
+      "damage": 39.199999999999996,
+      "hitstun": 40,
+      "kb": 100.49741176470587
+    }
+  },
+  {
+    "id": "kirby",
+    "slot": 0,
+    "fighter": "kirby",
+    "opponent": "mario",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 47,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 31,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 144,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 47,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 31,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 174,
+        "keys": []
+      }
+    ],
+    "approachFrame": 760,
+    "posture": "U",
+    "launched": {
+      "frame": 622,
+      "damage": 39.199999999999996,
+      "hitstun": 43,
+      "kb": 108.13635955056178
+    }
+  },
+  {
+    "id": "kirby",
+    "slot": 1,
+    "fighter": "mario",
+    "opponent": "kirby",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 47,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 31,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 144,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 47,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 31,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 14,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 174,
+        "keys": []
+      }
+    ],
+    "approachFrame": 760,
+    "posture": "U",
+    "launched": {
+      "frame": 622,
+      "damage": 39.199999999999996,
+      "hitstun": 43,
+      "kb": 108.13635955056178
+    }
+  },
+  {
+    "id": "pikachu",
+    "slot": 0,
+    "fighter": "pikachu",
+    "opponent": "mario",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 40,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 27,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 15,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 96,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 40,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 27,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 15,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "ArrowLeft"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "Period",
+          "ArrowUp"
+        ]
+      },
+      {
+        "frames": 126,
+        "keys": []
+      }
+    ],
+    "approachFrame": 702,
+    "posture": "U",
+    "launched": {
+      "frame": 612,
+      "damage": 39.199999999999996,
+      "hitstun": 43,
+      "kb": 107.80151955307261
+    }
+  },
+  {
+    "id": "pikachu",
+    "slot": 1,
+    "fighter": "mario",
+    "opponent": "pikachu",
+    "mode": "local",
+    "approach": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 40,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 27,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 15,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 96,
+        "keys": []
+      }
+    ],
+    "wait": [
+      {
+        "frames": 180,
+        "keys": []
+      },
+      {
+        "frames": 40,
+        "keys": [
+          "ArrowLeft",
+          "ShiftRight"
+        ]
+      },
+      {
+        "frames": 20,
+        "keys": []
+      },
+      {
+        "frames": 27,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 160,
+        "keys": []
+      },
+      {
+        "frames": 15,
+        "keys": [
+          "KeyD",
+          "ShiftLeft"
+        ]
+      },
+      {
+        "frames": 14,
+        "keys": []
+      },
+      {
+        "frames": 1,
+        "keys": [
+          "KeyD"
+        ]
+      },
+      {
+        "frames": 67,
+        "keys": [
+          "KeyL",
+          "KeyW"
+        ]
+      },
+      {
+        "frames": 126,
+        "keys": []
+      }
+    ],
+    "approachFrame": 702,
+    "posture": "U",
+    "launched": {
+      "frame": 612,
+      "damage": 39.199999999999996,
+      "hitstun": 43,
+      "kb": 107.80151955307261
+    }
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "origin": "Browser keyboard recovery route, not an original-game measurement",
+  "steps": [
+    {
+      "frames": 109,
+      "keys": [
+        "KeyD",
+        "ShiftLeft",
+        "KeyS"
+      ]
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyI",
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 53,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 23,
+      "keys": []
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 65,
+      "keys": []
+    }
+  ],
+  "marks": {
+    "drop": 109,
+    "catch": 163,
+    "return": 252
+  }
+}

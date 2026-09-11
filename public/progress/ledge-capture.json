@@ -1,0 +1,131 @@
+{
+  "build": "005",
+  "capturedAt": "2026-09-08T03:49:08.203Z",
+  "source": "http://127.0.0.1:5174/",
+  "captures": [
+    {
+      "image": "ledge-recovery.png",
+      "width": 1265,
+      "height": 556,
+      "snapshot": {
+        "frame": 116,
+        "player": {
+          "x": 86.876,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "ledgeHang",
+          "age": 16,
+          "clip": "CliffWait",
+          "poseFrame": 16,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 1,
+          "ledgeCooldown": 0,
+          "invincible": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 116,
+          "clip": "Wait1",
+          "poseFrame": 116,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false
+        },
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null
+      }
+    },
+    {
+      "image": "ledge-climb.png",
+      "width": 1265,
+      "height": 556,
+      "snapshot": {
+        "frame": 135,
+        "player": {
+          "x": 86.876,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "ledgeClimb",
+          "age": 18,
+          "clip": "CliffClimbQuick",
+          "poseFrame": 18,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 1,
+          "ledgeCooldown": 0,
+          "invincible": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 135,
+          "clip": "Wait1",
+          "poseFrame": 135,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false
+        },
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#e5e5e1" />
+  <meta name="description" content="Super Smash Bros. Brawl. Choose a fighter and play a stock battle against the CPU or a friend." />
+  <title>Super Smash Bros. Brawl</title>
+</head>
+<body data-screen="home">
+  <div id="game-shell">
+    <div class="menu-background" aria-hidden="true"><div class="background-emblem"></div><div class="background-rings"></div><div class="light-streak"></div></div>
+    <header class="topbar" id="menu-header">
+      <button id="brand-home" class="brand" aria-label="Brawl title screen"><img src="/assets/ui/logo-brawl-mask.png" alt="Brawl" /></button>
+      <nav aria-label="Game options"><button class="utility-button" data-help>Controls</button><button class="utility-button" id="sound-toggle" aria-label="Sound effects" aria-pressed="true">Sound <span id="sound-value">ON</span></button></nav>
+    </header>
+    <main id="home-screen" class="screen home-screen" aria-labelledby="home-title">
+      <h1 id="home-title" class="title-logo" aria-label="Super Smash Bros. Brawl">
+        <span class="logo-top"><img class="logo-metal" src="/assets/ui/logo-metal.png" alt="" /><span class="logo-ink"></span></span>
+        <span class="logo-bottom"><img src="/assets/ui/logo-brawl-mask.png" alt="" /><img src="/assets/ui/logo-brawl.png" alt="" /></span>
+      </h1>
+      <button id="start-game" class="title-start" aria-label="Start game"><img src="/assets/ui/press-any-button-mask.png" alt="Press any button" /><span class="start-chevron" aria-hidden="true">▶</span></button>
+      <p class="start-hint"><kbd>ENTER</kbd><span>or press <b>A</b> on your controller</span></p>
+      <div class="title-baseline" aria-hidden="true"><span></span><i></i><span></span></div>
+    </main>
+    <main id="setup-screen" class="screen setup-screen" aria-labelledby="setup-title" hidden>
+      <div class="screen-heading"><button id="setup-back" class="back-button"><span aria-hidden="true">◀</span> Back</button><h1 id="setup-title" tabindex="-1"><img src="/assets/ui/logo-brawl-mask.png" alt="Brawl" /><span>Character Select</span></h1></div>
+      <section class="rules-bar" aria-label="Match rules">
+        <div class="rule-title">Rules <span>Stock</span></div>
+        <label for="stocks">Stock<select id="stocks"><option value="1">1</option><option value="3" selected>3</option><option value="5">5</option></select></label>
+        <label for="match-time">Time<select id="match-time"><option value="60">1:00</option><option value="180" selected>3:00</option><option value="300">5:00</option></select></label>
+        <div class="segmented" id="opponent-options" role="group" aria-label="Opponent"><button data-opponent="cpu" aria-pressed="true">VS. CPU</button><button data-opponent="local" aria-pressed="false">2 Players</button></div>
+      </section>
+      <section class="roster-section" aria-label="Fighter selection">
+        <div class="roster-heading"><span>Select your character</span><span id="selection-instruction" aria-live="polite">Pick a fighter for Player 1.</span></div>
+        <div id="fighter-grid" class="fighter-grid" role="group" aria-label="Available fighters"></div>
+      </section>
+      <div class="selection-bottom">
+        <div class="player-tabs" role="group" aria-label="Choose player to edit">
+          <button id="select-p1" class="player-card p1-card" aria-pressed="true">
+            <span class="player-card-heading"><b>P1</b><span>Player 1</span><i class="edit-light" aria-hidden="true"></i></span>
+            <span class="player-card-art"><span class="card-emblem" aria-hidden="true"></span><img id="selected-p1-image" src="/assets/ui/mario.png" alt="" /></span>
+            <strong id="selected-p1-name">Mario</strong><img id="selected-p1-wordmark" class="character-wordmark" src="/assets/ui/name-mario-mask.png" alt="" />
+            <span class="player-card-foot">P1 <span>READY</span></span>
+          </button>
+          <button id="select-p2" class="player-card p2-card" aria-pressed="false">
+            <span class="player-card-heading"><b id="selection-p2-badge">CPU</b><span id="selection-p2-label">Computer</span><i class="edit-light" aria-hidden="true"></i></span>
+            <span class="player-card-art"><span class="card-emblem" aria-hidden="true"></span><img id="selected-p2-image" src="/assets/ui/mario.png" alt="" /></span>
+            <strong id="selected-p2-name">Mario</strong><img id="selected-p2-wordmark" class="character-wordmark" src="/assets/ui/name-mario-mask.png" alt="" />
+            <span class="player-card-foot"><span id="p2-card-type">CPU</span><span>READY</span></span>
+          </button>
+        </div>
+        <aside class="stage-card" aria-label="Selected stage">
+          <div class="stage-heading">Stage <span>01</span></div>
+          <div class="stage-art"><img src="/assets/ui/stage-final-destination.png" alt="Final Destination stage" /></div>
+          <strong>Final Destination</strong><span class="stage-subtitle">Super Smash Bros. Brawl</span>
+        </aside>
+      </div>
+      <div class="ready-bar"><button id="fight" disabled aria-label="Ready to fight"><span class="ready-wordmark"><img src="/assets/ui/ready-to-fight.png" alt="Ready to fight!" /></span><span class="fight-prompt"><b>START</b> <span aria-hidden="true">▶</span></span></button></div>
+      <div class="selection-status"><p id="opponent-description">Computer opponent</p><p id="asset-status" role="status">Loading fighters…</p></div>
+      <div class="sr-only"><span id="preview-p1">MARIO</span><span id="preview-p2">MARIO</span></div>
+    </main>
+    <main id="match-screen" class="screen match-screen" aria-label="Battle arena" hidden>
+      <div id="viewport" aria-label="Final Destination arena"></div>
+      <div id="battle-hud" class="battle-hud">
+        <div class="battle-top"><span class="battle-stage">FINAL DESTINATION<small id="battle-rule">3 STOCK · VS CPU</small></span><strong id="battle-timer" aria-label="Time remaining">3:00</strong><button id="pause-game" class="pause-button" aria-label="Pause match">Ⅱ <span>PAUSE</span></button></div>
+        <div class="battle-players">
+          <div class="battle-player player-one"><img id="hud-p1-image" src="/assets/ui/mario.png" alt="" /><div><small>P1</small><strong id="hud-p1-name">MARIO</strong><span id="hud-p1-stocks" class="stock-pips" aria-label="3 stocks"></span></div><span id="hud-p1-damage" class="damage">0<small>%</small></span></div>
+          <div class="battle-player player-two"><img id="hud-p2-image" src="/assets/ui/mario.png" alt="" /><div><small id="hud-p2-label">CPU</small><strong id="hud-p2-name">MARIO</strong><span id="hud-p2-stocks" class="stock-pips" aria-label="3 stocks"></span></div><span id="hud-p2-damage" class="damage">0<small>%</small></span></div>
+        </div>
+        <div id="countdown" class="countdown" role="status" hidden><strong id="countdown-number">3</strong></div>
+        <p id="match-hint" class="match-hint"><kbd>A D</kbd> move <kbd>SPACE</kbd> jump <kbd>J</kbd> attack <kbd>K</kbd> shield <kbd>I</kbd> recover</p>
+      </div>
+      <div id="touch-controls" class="touch-controls" aria-label="Touch controls"><div class="touch-directions"><button data-control="up" aria-label="Aim up">↑</button><button data-control="left" aria-label="Move left">←</button><button data-control="down" aria-label="Crouch or aim down">↓</button><button data-control="right" aria-label="Move right">→</button></div><div class="touch-actions"><button data-control="shield">SHIELD</button><button data-control="special">RECOVER</button><button data-control="jump">JUMP</button><button data-control="attack">ATTACK</button><button data-control="neutral">SPECIAL</button><button data-control="smash">SMASH</button></div></div>
+      <section id="pause-overlay" class="overlay pause-overlay" aria-labelledby="pause-title" hidden>
+        <div class="pause-card"><h1 id="pause-title" tabindex="-1">Pause</h1><div class="pause-menu"><button id="resume-game" class="action-button">Resume <span aria-hidden="true">▶</span></button><button id="restart-game" class="menu-button">Restart match</button><button class="menu-button" data-help>Controls</button><button id="pause-select" class="menu-button">Character select</button><button id="pause-home" class="menu-button">Quit to title</button></div><p class="pause-hint"><kbd>ESC</kbd> Resume</p></div>
+      </section>
+      <section id="results-overlay" class="overlay results-overlay" aria-labelledby="result-title" hidden>
+        <div class="results-card"><p id="result-kicker">GAME!</p><div class="winner-art"><span class="winner-emblem" aria-hidden="true"></span><span class="winner-place" aria-hidden="true">1</span><img id="winner-image" src="/assets/ui/mario.png" alt="" /></div><h1 id="result-title" tabindex="-1">MARIO WINS!</h1><p id="result-description"></p><div id="result-score" class="result-score"></div><div class="result-buttons"><button id="rematch" class="action-button">Rematch <span aria-hidden="true">▶</span></button><button id="results-select" class="menu-button">Character select</button></div><button id="results-home" class="text-button">Quit to title</button></div>
+      </section>
+    </main>
+    <footer id="menu-footer"><span class="footer-instruction"><b>A</b> Confirm <b>B</b> Back</span><span id="controller-status">KEYBOARD READY</span><span class="footer-players">1–2 Players</span></footer>
+    <div id="game-error" class="error-notice" role="alert" hidden><strong>The arena could not load.</strong><p id="error-message">Please reload and try again.</p><button id="retry-load" class="action-button">Try again</button></div>
+  </div>
+  <dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-heading"><h2 id="help-title">Controls</h2><button id="close-help" class="close-button" aria-label="Close controls">×</button></div><p>Build up damage, then launch your opponent off the stage. The last fighter standing wins.</p><div class="help-tabs" role="group" aria-label="Control scheme"><button data-scheme="p1" aria-pressed="true">Player 1</button><button data-scheme="p2" aria-pressed="false">Player 2</button><button data-scheme="pad" aria-pressed="false">Gamepad</button></div><dl id="controls-list"></dl><p id="controls-note" class="controls-note"></p><button id="help-done" class="action-button">OK</button></dialog>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

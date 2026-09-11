@@ -1,0 +1,5098 @@
+{
+  "build": 16,
+  "capturedAt": "2026-09-08T08:48:01.270Z",
+  "captures": [
+    {
+      "file": "mario-smash-charge.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 47,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 29,
+          "clip": "AttackHi4Hold",
+          "poseFrame": 29,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 47,
+          "clip": "Wait1",
+          "poseFrame": 47,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": true,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "hold",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "mario-up-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 53,
+        "player": {
+          "x": -5.341857767679,
+          "y": 0,
+          "vx": 0.8248546320000001,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 5,
+          "clip": "AttackHi4",
+          "poseFrame": 5,
+          "damage": 0,
+          "hitlag": 8,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0.2497062961859085,
+          "vy": 2.0336945813844696,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 16.8,
+          "hitlag": 8,
+          "hitstun": 27,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 8,
+          "stack": [
+            {
+              "pc": 5,
+              "offsets": [
+                73912,
+                73920,
+                73928,
+                73936,
+                73944,
+                73952,
+                73960
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 39,
+              "damage": 14,
+              "angle": 83,
+              "growth": 90,
+              "fixed": 0,
+              "base": 32,
+              "radius": 5,
+              "offset": [
+                0,
+                2.5,
+                1.1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 22,
+              "damage": 14,
+              "angle": 83,
+              "growth": 90,
+              "fixed": 0,
+              "base": 32,
+              "radius": 4,
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [
+            [
+              39,
+              2
+            ]
+          ]
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 53,
+          "move": "AttackHi4",
+          "damage": 16.8,
+          "knockback": 68.29890909090909,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "mario-down-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 46,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 2,
+          "clip": "AttackLw4",
+          "poseFrame": 2,
+          "damage": 0,
+          "hitlag": 9,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 1.547770751125024,
+          "vy": 1.4946648403361489,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 18,
+          "hitlag": 9,
+          "hitstun": 28,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackLw4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 4,
+          "stack": [
+            {
+              "pc": 4,
+              "offsets": [
+                74440,
+                74448,
+                74456,
+                74464,
+                74472,
+                74480,
+                74488,
+                74496,
+                74504,
+                74512
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 15,
+              "angle": 361,
+              "growth": 73,
+              "fixed": 0,
+              "base": 40,
+              "radius": 4.8,
+              "offset": [
+                0,
+                3.6,
+                12
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 15,
+              "angle": 361,
+              "growth": 73,
+              "fixed": 0,
+              "base": 40,
+              "radius": 3.84,
+              "offset": [
+                0,
+                3.6,
+                9
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 46,
+          "move": "AttackLw4",
+          "damage": 18,
+          "knockback": 71.72181818181818,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "link-smash-charge.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 46,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 29,
+          "clip": "AttackHi4Hold",
+          "poseFrame": 29,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 46,
+          "clip": "Wait1",
+          "poseFrame": 46,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": true,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "hold",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "link-up-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 51,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 4,
+          "clip": "AttackHi4",
+          "poseFrame": 4,
+          "damage": 0,
+          "hitlag": 4,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": -0.1247119446225582,
+          "vy": 1.4254640498149156,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 4.8,
+          "hitlag": 4,
+          "hitstun": 19,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 10,
+          "stack": [
+            {
+              "pc": 6,
+              "offsets": [
+                91608,
+                91616,
+                91624,
+                91632,
+                91640,
+                91648,
+                91656,
+                91664,
+                91672,
+                91680,
+                91688,
+                91696,
+                91704,
+                91712,
+                91720,
+                91728,
+                91736,
+                91744,
+                91752,
+                91760,
+                91768,
+                91776,
+                91784
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 29,
+              "damage": 4,
+              "angle": 95,
+              "growth": 100,
+              "fixed": 40,
+              "base": 0,
+              "radius": 4,
+              "offset": [
+                5.5,
+                0,
+                -1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 29,
+              "damage": 4,
+              "angle": 98,
+              "growth": 100,
+              "fixed": 48,
+              "base": 0,
+              "radius": 4,
+              "offset": [
+                2,
+                0,
+                -1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 23,
+              "damage": 4,
+              "angle": 98,
+              "growth": 100,
+              "fixed": 40,
+              "base": 0,
+              "radius": 3,
+              "offset": [
+                1.2,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 3,
+              "bone": 55,
+              "damage": 4,
+              "angle": 98,
+              "growth": 100,
+              "fixed": 40,
+              "base": 0,
+              "radius": 2.2,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 51,
+          "move": "AttackHi4",
+          "damage": 4.8,
+          "knockback": 47.69696969696969,
+          "hitbox": 0,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "link-down-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 50,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 4,
+          "clip": "AttackLw4",
+          "poseFrame": 4,
+          "damage": 0,
+          "hitlag": 9,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0.528787073507894,
+          "vy": 1.9734602247171193,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 19.2,
+          "hitlag": 9,
+          "hitstun": 27,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackLw4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 7,
+          "stack": [
+            {
+              "pc": 6,
+              "offsets": [
+                92688,
+                92696,
+                92704,
+                92712,
+                92720,
+                92728,
+                92736,
+                92744,
+                92752,
+                92760,
+                92768,
+                92776,
+                92784,
+                92792,
+                92800,
+                92808
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 29,
+              "damage": 14,
+              "angle": 75,
+              "growth": 90,
+              "fixed": 0,
+              "base": 26,
+              "radius": 3.5,
+              "offset": [
+                5.8,
+                0,
+                -1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 29,
+              "damage": 16,
+              "angle": 75,
+              "growth": 90,
+              "fixed": 0,
+              "base": 26,
+              "radius": 3.5,
+              "offset": [
+                2,
+                0,
+                -1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 23,
+              "damage": 17,
+              "angle": 75,
+              "growth": 90,
+              "fixed": 0,
+              "base": 26,
+              "radius": 2.9,
+              "offset": [
+                1.2,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 3,
+              "bone": 55,
+              "damage": 16,
+              "angle": 75,
+              "growth": 90,
+              "fixed": 0,
+              "base": 26,
+              "radius": 2.5,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 50,
+          "move": "AttackLw4",
+          "damage": 19.2,
+          "knockback": 68.10254545454545,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "kirby-smash-charge.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 49,
+        "player": {
+          "x": -6.55,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 29,
+          "clip": "AttackHi4Hold",
+          "poseFrame": 29,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 49,
+          "clip": "Wait1",
+          "poseFrame": 49,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": true,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "hold",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "kirby-up-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 55,
+        "player": {
+          "x": -6.55,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 5,
+          "clip": "AttackHi4",
+          "poseFrame": 5,
+          "damage": 0,
+          "hitlag": 9,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0.6014013448018573,
+          "vy": 2.2444603745407803,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 18,
+          "hitlag": 9,
+          "hitstun": 30,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 6,
+          "stack": [
+            {
+              "pc": 7,
+              "offsets": [
+                150256,
+                150264,
+                150272,
+                150280,
+                150288,
+                150296,
+                150304,
+                150312,
+                150320,
+                150328,
+                150336,
+                150344,
+                150352,
+                150360,
+                150368,
+                150376,
+                150384
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 453,
+              "damage": 15,
+              "angle": 75,
+              "growth": 100,
+              "fixed": 0,
+              "base": 34,
+              "radius": 5.2,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 455,
+              "damage": 15,
+              "angle": 75,
+              "growth": 100,
+              "fixed": 0,
+              "base": 34,
+              "radius": 5.2,
+              "offset": [
+                2.6,
+                1.5,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 455,
+              "damage": 14,
+              "angle": 75,
+              "growth": 100,
+              "fixed": 0,
+              "base": 30,
+              "radius": 5.2,
+              "offset": [
+                6.2,
+                1.5,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [
+            [
+              455,
+              2
+            ],
+            [
+              457,
+              2
+            ]
+          ]
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 55,
+          "move": "AttackHi4",
+          "damage": 18,
+          "knockback": 77.45454545454545,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "kirby-down-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 51,
+        "player": {
+          "x": -6.55,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 5,
+          "clip": "AttackLw4",
+          "poseFrame": 5,
+          "damage": 0,
+          "hitlag": 8,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 1.4378528638633468,
+          "vy": 0.7645199290576097,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 16.8,
+          "hitlag": 8,
+          "hitstun": 21,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackLw4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 10,
+          "stack": [
+            {
+              "pc": 10,
+              "offsets": [
+                150992,
+                151000,
+                151008,
+                151016,
+                151024,
+                151032,
+                151040,
+                151048,
+                151056,
+                151064,
+                151072,
+                151080,
+                151088,
+                151096,
+                151104,
+                151112,
+                151120
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 453,
+              "damage": 14,
+              "angle": 76,
+              "growth": 100,
+              "fixed": 0,
+              "base": 30,
+              "radius": 5.1,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 444,
+              "damage": 14,
+              "angle": 76,
+              "growth": 100,
+              "fixed": 0,
+              "base": 30,
+              "radius": 5.1,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 455,
+              "damage": 14,
+              "angle": 28,
+              "growth": 85,
+              "fixed": 0,
+              "base": 20,
+              "radius": 5.1,
+              "offset": [
+                5.2,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 3,
+              "bone": 446,
+              "damage": 14,
+              "angle": 28,
+              "growth": 85,
+              "fixed": 0,
+              "base": 20,
+              "radius": 5.1,
+              "offset": [
+                5.2,
+                0,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [
+            [
+              455,
+              2
+            ],
+            [
+              446,
+              2
+            ],
+            [
+              457,
+              2
+            ],
+            [
+              448,
+              2
+            ]
+          ]
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 51,
+          "move": "AttackLw4",
+          "damage": 16.8,
+          "knockback": 54.28230303030303,
+          "hitbox": 2,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "pikachu-smash-charge.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        }
+      ],
+      "state": {
+        "frame": 45,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 29,
+          "clip": "AttackHi4Hold",
+          "poseFrame": 29,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 45,
+          "clip": "Wait1",
+          "poseFrame": 45,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": true,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "hold",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 0,
+          "stack": [],
+          "hitboxes": [],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "pikachu-up-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyW",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 50,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 4,
+          "clip": "AttackHi4",
+          "poseFrame": 4,
+          "damage": 0,
+          "hitlag": 8,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0.19262813639116408,
+          "vy": 2.201749673934452,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 15.6,
+          "hitlag": 8,
+          "hitstun": 29,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackHi4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 6,
+          "stack": [
+            {
+              "pc": 5,
+              "offsets": [
+                66488,
+                66496,
+                66504,
+                66512,
+                66520,
+                66528,
+                66536,
+                66544,
+                66552,
+                66560,
+                66568,
+                66576,
+                66584,
+                66592
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 19,
+              "damage": 14,
+              "angle": 85,
+              "growth": 90,
+              "fixed": 0,
+              "base": 40,
+              "radius": 3,
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 21,
+              "damage": 13,
+              "angle": 85,
+              "growth": 90,
+              "fixed": 0,
+              "base": 40,
+              "radius": 4,
+              "offset": [
+                0,
+                0,
+                -1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 22,
+              "damage": 13,
+              "angle": 85,
+              "growth": 90,
+              "fixed": 0,
+              "base": 40,
+              "radius": 4,
+              "offset": [
+                0,
+                0,
+                3
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 50,
+          "move": "AttackHi4",
+          "damage": 15.6,
+          "knockback": 73.672,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "file": "pikachu-down-smash-hit.png",
+      "inputs": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyL"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "frame": 47,
+        "player": {
+          "x": -6.5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "smash",
+          "age": 1,
+          "clip": "AttackLw4",
+          "poseFrame": 1,
+          "damage": 0,
+          "hitlag": 3,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": -2.234253045413856,
+          "vy": 0.393959093636518,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 2.4,
+          "hitlag": 3,
+          "hitstun": 30,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "vertical": 0
+        },
+        "quickAttack": null,
+        "smash": {
+          "phase": "release",
+          "move": "AttackLw4",
+          "charge": 30
+        },
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "wake": 3,
+          "stack": [
+            {
+              "pc": 6,
+              "offsets": [
+                67080,
+                67088,
+                67096,
+                67104,
+                67112,
+                67120,
+                67128,
+                67136,
+                67144,
+                67152,
+                67160,
+                67168
+              ],
+              "loops": [
+                {
+                  "start": 2,
+                  "remaining": 6
+                }
+              ]
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "angle": 170,
+              "growth": 30,
+              "fixed": 0,
+              "base": 70,
+              "radius": 5.76,
+              "offset": [
+                0,
+                6.4,
+                -8
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "angle": 170,
+              "growth": 30,
+              "fixed": 0,
+              "base": 70,
+              "radius": 5.76,
+              "offset": [
+                0,
+                6.4,
+                8
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "angle": 90,
+              "growth": 30,
+              "fixed": 0,
+              "base": 30,
+              "radius": 2.88,
+              "offset": [
+                0,
+                4,
+                0
+              ],
+              "hitlag": 1
+            }
+          ],
+          "variables": [],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": []
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 47,
+          "move": "AttackLw4",
+          "damage": 2.4,
+          "knockback": 75.624,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "vertical": 0
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    }
+  ]
+}

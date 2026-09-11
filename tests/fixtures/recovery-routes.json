@@ -1,0 +1,103 @@
+{
+  "origin": "Keyboard routes recorded in the browser reconstruction, not original-game measurements",
+  "fighters": {
+    "mario": {
+      "steps": [
+        {
+          "frames": 103,
+          "keys": [
+            "KeyD",
+            "ShiftLeft",
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyI",
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 47,
+          "keys": [
+            "KeyA"
+          ]
+        }
+      ],
+      "marks": {
+        "before": {
+          "frame": 103,
+          "x": 116.87999999999995,
+          "y": -29.395000000000007
+        },
+        "rising": {
+          "frame": 115,
+          "x": 104.74240499999996,
+          "y": 2.8543171999999934
+        },
+        "landing": {
+          "frame": 151,
+          "x": 79.82509739999999,
+          "y": 0
+        }
+      }
+    },
+    "link": {
+      "steps": [
+        {
+          "frames": 107,
+          "keys": [
+            "KeyD",
+            "ShiftLeft",
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyI",
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 39,
+          "keys": [
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 40,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyA"
+          ]
+        },
+        {
+          "frames": 50,
+          "keys": []
+        }
+      ],
+      "marks": {
+        "before": {
+          "frame": 107,
+          "x": 111.5376000000002,
+          "y": -29.617000000000008
+        },
+        "rising": {
+          "frame": 119,
+          "x": 108.41760000000019,
+          "y": -6.559000000000003
+        },
+        "ledge": {
+          "frame": 147,
+          "x": 86.876,
+          "y": 0
+        }
+      }
+    }
+  }
+}

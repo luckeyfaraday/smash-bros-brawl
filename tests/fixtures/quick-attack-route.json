@@ -1,0 +1,55 @@
+{
+  "origin": "Browser reconstruction keyboard route; not original-game measurement",
+  "steps": [
+    {
+      "frames": 93,
+      "keys": [
+        "KeyD",
+        "ShiftLeft",
+        "KeyS"
+      ]
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyI",
+        "KeyW"
+      ]
+    },
+    {
+      "frames": 24,
+      "keys": [
+        "KeyW"
+      ]
+    },
+    {
+      "frames": 9,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 5,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 5,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 65,
+      "keys": []
+    }
+  ],
+  "marks": {
+    "drop": 93,
+    "first": 118,
+    "turn": 127,
+    "second": 132,
+    "returned": 202
+  }
+}

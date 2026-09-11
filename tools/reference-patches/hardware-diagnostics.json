@@ -1,0 +1,15 @@
+{
+  "name": "Brawl hardware viewport and mip upload diagnostics",
+  "file": "src/upstream-discio-worker.js",
+  "baseSha256": "57cbd1596449d6ea2b65789d8850db2ebb4d7079b273ec72370967eba66b935c",
+  "replacements": [
+    {
+      "before": "            pass.setViewport(vx, vy, vw, vh, mn, mx);",
+      "after": "            if (self._postLoadProbeT0) {\n              const record = JSON.stringify({fb:passFbId, target:[passW,passH], raw:Array.from(f32.subarray(recWord+1,recWord+5)), applied:[vx,vy,vw,vh]});\n              const seen = self._brawlViewports ||= new Set();\n              if (!seen.has(record) && seen.size < 40) { seen.add(record); console.log('[brawl-viewport] ' + record); }\n            }\n            pass.setViewport(vx, vy, vw, vh, mn, mx);"
+    },
+    {
+      "before": "            const uz = u32[recWord + 7];",
+      "after": "            if (t && u32[recWord + 6] > 0) {\n              const record = JSON.stringify({id:textureId, size:[t.tex.width,t.tex.height], levels:t.tex.mipLevelCount, uploadLevel:u32[recWord+6], uploadSize:[u32[recWord+4],h]});\n              const seen = self._brawlMipUploads ||= new Set();\n              if (!seen.has(record) && seen.size < 40) { seen.add(record); console.log('[brawl-mip] ' + record); }\n            }\n            const uz = u32[recWord + 7];"
+    }
+  ]
+}

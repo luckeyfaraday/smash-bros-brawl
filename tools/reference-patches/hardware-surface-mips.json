@@ -1,0 +1,23 @@
+{
+  "name": "Hardware surface size and configured texture mip levels",
+  "file": "src/upstream-discio-worker.js",
+  "baseSha256": "57cbd1596449d6ea2b65789d8850db2ebb4d7079b273ec72370967eba66b935c",
+  "replacements": [
+    {
+      "before": "            const cur = renderGpu.context.getCurrentTexture();",
+      "after": "            // WebGPUGfx::GetSurfaceInfo in this pinned core reports 640x480.\n            // Startup CPU frames can resize the canvas to 320x240 before\n            // command replay takes ownership. Match the producer's surface\n            // before acquiring the attachment, including after state loads.\n            if (renderCanvas.width !== 640 || renderCanvas.height !== 480) {\n              renderCanvas.width = 640;\n              renderCanvas.height = 480;\n            }\n            const cur = renderGpu.context.getCurrentTexture();"
+    },
+    {
+      "before": "              format: fmt, usage: u32[recWord + 5]",
+      "after": "              // CreateTexture payload u6 carries TextureConfig.levels.\n              // Older cores leave it zero and retain their one-level allocation.\n              mipLevelCount: u32[recWord + 7] || 1,\n              format: fmt, usage: u32[recWord + 5]"
+    },
+    {
+      "before": "            colorView = ct.tex.createView();",
+      "after": "            colorView = ct.tex.createView({ baseMipLevel: 0, mipLevelCount: 1 });"
+    },
+    {
+      "before": "              view: dt.tex.createView(),",
+      "after": "              view: dt.tex.createView({ baseMipLevel: 0, mipLevelCount: 1 }),"
+    }
+  ]
+}

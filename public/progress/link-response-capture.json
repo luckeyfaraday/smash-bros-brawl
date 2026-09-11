@@ -1,0 +1,4058 @@
+{
+  "build": 25,
+  "capturedAt": "2026-09-08T16:41:41.254Z",
+  "method": "Actual keyboard controls in the paused main app; N advances simulation. No simulation-state mutation.",
+  "captures": [
+    {
+      "name": "link-shield-standing",
+      "steps": [
+        {
+          "frames": 180,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "Quote"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": {
+              "ticks": 12,
+              "point": {
+                "x": -55.509083339224446,
+                "y": 12.0407931459888,
+                "z": -0.49071446671799995
+              }
+            }
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 283,
+        "player": {
+          "x": -60,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 103,
+          "clip": "Wait1",
+          "poseFrame": 103,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -42.89999999999999,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "ranged",
+          "age": 18,
+          "clip": "SpecialN",
+          "poseFrame": 18,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "side": false,
+          "downSpecial": false,
+          "opponent": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          }
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 1,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": {
+          "frame": 283,
+          "move": "HylianShield",
+          "damage": 0,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 1,
+          "blocked": true
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": {
+            "airGroundMode": null,
+            "itemPickup": false,
+            "itemVisible": true,
+            "itemThrows": [],
+            "side": {
+              "reflector": false,
+              "events": []
+            },
+            "wake": 43,
+            "stack": [
+              {
+                "pc": 3,
+                "offsets": [
+                  93960,
+                  93968,
+                  93976,
+                  93984
+                ],
+                "loops": []
+              }
+            ],
+            "hitboxes": [],
+            "grabs": [],
+            "throws": [],
+            "throwEvents": [],
+            "wind": null,
+            "variables": [],
+            "interruptible": false,
+            "error": null,
+            "hitboxEpoch": 0,
+            "hurtState": 0,
+            "ledgeGrab": 0,
+            "integers": [],
+            "generatedArticles": [],
+            "boneStates": [],
+            "articleVisibility": [],
+            "modelVisibility": [],
+            "grapple": {
+              "reverse": false,
+              "tether": null
+            }
+          },
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": {
+            "kind": "fireball",
+            "phase": "throw",
+            "charge": 0,
+            "bow": false,
+            "arrow": false,
+            "swordBack": false,
+            "shieldBack": false,
+            "fire": false
+          },
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "battle",
+            "opponent": "local",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10697,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "link-shield-crouching",
+      "steps": [
+        {
+          "frames": 180,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "Quote"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": {
+              "ticks": 12,
+              "point": {
+                "x": -52.919090234971705,
+                "y": 5.4175970228358405,
+                "z": -0.018331072060000037
+              }
+            }
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 281,
+        "player": {
+          "x": -60,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "crouch",
+          "age": 28,
+          "clip": "SquatWait",
+          "poseFrame": 28,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -42.89999999999999,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "ranged",
+          "age": 16,
+          "clip": "SpecialN",
+          "poseFrame": 16,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": -1,
+          "grab": false,
+          "side": false,
+          "downSpecial": false,
+          "opponent": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          }
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 1,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": {
+          "frame": 281,
+          "move": "HylianShield",
+          "damage": 0,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 1,
+          "blocked": true
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": {
+            "airGroundMode": null,
+            "itemPickup": false,
+            "itemVisible": true,
+            "itemThrows": [],
+            "side": {
+              "reflector": false,
+              "events": []
+            },
+            "wake": 43,
+            "stack": [
+              {
+                "pc": 3,
+                "offsets": [
+                  93960,
+                  93968,
+                  93976,
+                  93984
+                ],
+                "loops": []
+              }
+            ],
+            "hitboxes": [],
+            "grabs": [],
+            "throws": [],
+            "throwEvents": [],
+            "wind": null,
+            "variables": [],
+            "interruptible": false,
+            "error": null,
+            "hitboxEpoch": 0,
+            "hurtState": 0,
+            "ledgeGrab": 0,
+            "integers": [],
+            "generatedArticles": [],
+            "boneStates": [],
+            "articleVisibility": [],
+            "modelVisibility": [],
+            "grapple": {
+              "reverse": false,
+              "tether": null
+            }
+          },
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": {
+            "kind": "fireball",
+            "phase": "throw",
+            "charge": 0,
+            "bow": false,
+            "arrow": false,
+            "swordBack": false,
+            "shieldBack": false,
+            "fire": false
+          },
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "battle",
+            "opponent": "local",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10699,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "link-shield-arrow",
+      "steps": [
+        {
+          "frames": 180,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "ArrowLeft",
+            "ShiftRight"
+          ]
+        },
+        {
+          "frames": 20,
+          "keys": []
+        },
+        {
+          "frames": 50,
+          "keys": [
+            "Quote"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": []
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": {
+              "ticks": 12,
+              "point": {
+                "x": -54.6615303773344,
+                "y": 10.3252771761675,
+                "z": -0.5507706343908
+              }
+            }
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 323,
+        "player": {
+          "x": -60,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 143,
+          "clip": "Wait1",
+          "poseFrame": 143,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": -39.24400000000006,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "ranged",
+          "age": 1,
+          "clip": "SpecialNEnd",
+          "poseFrame": 1,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "side": false,
+          "downSpecial": false,
+          "opponent": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          }
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 1,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": {
+          "frame": 323,
+          "move": "HylianShield",
+          "damage": 0,
+          "knockback": 0,
+          "hitbox": 0,
+          "attacker": 1,
+          "blocked": true
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": {
+            "airGroundMode": null,
+            "itemPickup": false,
+            "itemVisible": true,
+            "itemThrows": [],
+            "side": {
+              "reflector": false,
+              "events": []
+            },
+            "wake": 21,
+            "stack": [
+              {
+                "pc": 1,
+                "offsets": [
+                  118424,
+                  118432,
+                  118440
+                ],
+                "loops": []
+              }
+            ],
+            "hitboxes": [],
+            "grabs": [],
+            "throws": [],
+            "throwEvents": [],
+            "wind": null,
+            "variables": [],
+            "interruptible": false,
+            "error": null,
+            "hitboxEpoch": 0,
+            "hurtState": 0,
+            "ledgeGrab": 0,
+            "integers": [],
+            "generatedArticles": [],
+            "boneStates": [],
+            "articleVisibility": [],
+            "modelVisibility": [],
+            "grapple": {
+              "reverse": false,
+              "tether": null
+            }
+          },
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": {
+            "kind": "arrow",
+            "phase": "release",
+            "charge": 32,
+            "bow": true,
+            "arrow": false,
+            "swordBack": true,
+            "shieldBack": true,
+            "fire": false
+          },
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "battle",
+            "opponent": "local",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "link"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10657,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "link-down-air-impact",
+      "steps": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "Space"
+          ]
+        },
+        {
+          "frames": 7,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 13,
+          "keys": []
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": {
+              "count": 1,
+              "cooldown": 6
+            },
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 32,
+        "player": {
+          "x": 5.937999999999992,
+          "y": 13.050000000000004,
+          "vx": 0.4119999999999995,
+          "vy": 2.5,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "aerial",
+          "age": 13,
+          "clip": "AttackAirLw",
+          "poseFrame": 13,
+          "damage": 0,
+          "hitlag": 10,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": true,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": -1.3642565342501517e-16,
+          "vy": 2.228,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 0,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 22,
+          "hitlag": 10,
+          "hitstun": 29,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "airGroundMode": null,
+          "itemPickup": false,
+          "itemVisible": true,
+          "itemThrows": [],
+          "side": {
+            "reflector": false,
+            "events": []
+          },
+          "wake": 14,
+          "stack": [
+            {
+              "pc": 7,
+              "offsets": [
+                96512,
+                96520,
+                96528,
+                96536,
+                96544,
+                96552,
+                96560,
+                96568,
+                96576,
+                96584,
+                96592,
+                96600,
+                96608,
+                96616,
+                96624
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 8,
+              "angle": 65,
+              "growth": 80,
+              "fixed": 0,
+              "base": 40,
+              "radius": 5.2,
+              "offset": [
+                2,
+                7.2,
+                1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 8,
+              "angle": 90,
+              "growth": 80,
+              "fixed": 0,
+              "base": 30,
+              "radius": 4.2,
+              "offset": [
+                2,
+                2,
+                1
+              ],
+              "hitlag": 1
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425374,
+            301989952
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 32,
+          "move": "AttackAirLw",
+          "damage": 22,
+          "knockback": 74.26666666666668,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "link-down-air-rebound",
+      "steps": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "Space"
+          ]
+        },
+        {
+          "frames": 7,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 13,
+          "keys": []
+        },
+        {
+          "frames": 15,
+          "keys": []
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": {
+              "count": 1,
+              "cooldown": 1
+            },
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 47,
+        "player": {
+          "x": 7.847999999999989,
+          "y": 24.215000000000003,
+          "vx": 0.36199999999999943,
+          "vy": 2.055,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "aerial",
+          "age": 18,
+          "clip": "AttackAirLw",
+          "poseFrame": 18,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": true,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 10.014999999999999,
+          "vx": -1.3642565342501517e-16,
+          "vy": 1.8529999999999998,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 5,
+          "clip": "DamageN1",
+          "poseFrame": 5,
+          "damage": 22,
+          "hitlag": 0,
+          "hitstun": 24,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "airGroundMode": null,
+          "itemPickup": false,
+          "itemVisible": true,
+          "itemThrows": [],
+          "side": {
+            "reflector": false,
+            "events": []
+          },
+          "wake": 64,
+          "stack": [
+            {
+              "pc": 10,
+              "offsets": [
+                96512,
+                96520,
+                96528,
+                96536,
+                96544,
+                96552,
+                96560,
+                96568,
+                96576,
+                96584,
+                96592,
+                96600,
+                96608,
+                96616,
+                96624
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 8,
+              "angle": 65,
+              "growth": 80,
+              "fixed": 0,
+              "base": 40,
+              "radius": 5.2,
+              "offset": [
+                2,
+                7.2,
+                1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 8,
+              "angle": 65,
+              "growth": 80,
+              "fixed": 0,
+              "base": 50,
+              "radius": 4.2,
+              "offset": [
+                2,
+                2,
+                1
+              ],
+              "hitlag": 1
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425374,
+            301989952
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 1,
+        "lastHit": {
+          "frame": 32,
+          "move": "AttackAirLw",
+          "damage": 22,
+          "knockback": 74.26666666666668,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "link-down-air-followup",
+      "steps": [
+        {
+          "frames": 10,
+          "keys": [
+            "KeyD"
+          ]
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "Space"
+          ]
+        },
+        {
+          "frames": 7,
+          "keys": []
+        },
+        {
+          "frames": 1,
+          "keys": [
+            "KeyS",
+            "KeyJ"
+          ]
+        },
+        {
+          "frames": 13,
+          "keys": []
+        },
+        {
+          "frames": 28,
+          "keys": [
+            "KeyA"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": {
+              "count": 2,
+              "cooldown": 6
+            },
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 60,
+        "player": {
+          "x": 6.513999999999984,
+          "y": 42.83100000000002,
+          "vx": -0.3080000000000005,
+          "vy": 2.5,
+          "facing": 1,
+          "grounded": false,
+          "jumps": 1,
+          "state": "aerial",
+          "age": 31,
+          "clip": "AttackAirLw",
+          "poseFrame": 31,
+          "damage": 0,
+          "hitlag": 5,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": true,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 27.279,
+          "vx": -1.0316495967510237,
+          "vy": 2.212379699773466,
+          "facing": -1,
+          "grounded": false,
+          "jumps": 0,
+          "state": "hitstun",
+          "age": 18,
+          "clip": "DamageN1",
+          "poseFrame": 0,
+          "damage": 30,
+          "hitlag": 5,
+          "hitstun": 32,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": -1,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": false,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": 0,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": {
+          "airGroundMode": null,
+          "itemPickup": false,
+          "itemVisible": true,
+          "itemThrows": [],
+          "side": {
+            "reflector": false,
+            "events": []
+          },
+          "wake": 64,
+          "stack": [
+            {
+              "pc": 10,
+              "offsets": [
+                96512,
+                96520,
+                96528,
+                96536,
+                96544,
+                96552,
+                96560,
+                96568,
+                96576,
+                96584,
+                96592,
+                96600,
+                96608,
+                96616,
+                96624
+              ],
+              "loops": []
+            }
+          ],
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 8,
+              "angle": 65,
+              "growth": 80,
+              "fixed": 0,
+              "base": 40,
+              "radius": 5.2,
+              "offset": [
+                2,
+                7.2,
+                1
+              ],
+              "hitlag": 1
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 8,
+              "angle": 65,
+              "growth": 80,
+              "fixed": 0,
+              "base": 50,
+              "radius": 4.2,
+              "offset": [
+                2,
+                2,
+                1
+              ],
+              "hitlag": 1
+            }
+          ],
+          "grabs": [],
+          "throws": [],
+          "throwEvents": [],
+          "wind": null,
+          "variables": [
+            570425374,
+            301989952
+          ],
+          "interruptible": false,
+          "error": null,
+          "hitboxEpoch": 0,
+          "hurtState": 0,
+          "ledgeGrab": 0,
+          "integers": [],
+          "generatedArticles": [],
+          "boneStates": [],
+          "articleVisibility": [],
+          "modelVisibility": [],
+          "grapple": {
+            "reverse": false,
+            "tether": null
+          }
+        },
+        "comboQueued": false,
+        "hasHit": true,
+        "hits": 2,
+        "lastHit": {
+          "frame": 60,
+          "move": "AttackAirLw",
+          "damage": 8,
+          "knockback": 81.36969696969697,
+          "hitbox": 1,
+          "attacker": 0,
+          "blocked": false
+        },
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "crouch-mario",
+      "steps": [
+        {
+          "frames": 24,
+          "keys": [
+            "KeyS"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 24,
+        "player": {
+          "x": -12,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "crouch",
+          "age": 15,
+          "clip": "SquatWait",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 24,
+          "clip": "Wait1",
+          "poseFrame": 24,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": -1,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "mario",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "crouch-link",
+      "steps": [
+        {
+          "frames": 24,
+          "keys": [
+            "KeyS"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 24,
+        "player": {
+          "x": -12,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "crouch",
+          "age": 15,
+          "clip": "SquatWait",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 24,
+          "clip": "Wait1",
+          "poseFrame": 24,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": -1,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "link",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "crouch-kirby",
+      "steps": [
+        {
+          "frames": 24,
+          "keys": [
+            "KeyS"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 24,
+        "player": {
+          "x": -12,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "crouch",
+          "age": 15,
+          "clip": "SquatWait",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 24,
+          "clip": "Wait1",
+          "poseFrame": 24,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": -1,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "kirby",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    },
+    {
+      "name": "crouch-pikachu",
+      "steps": [
+        {
+          "frames": 24,
+          "keys": [
+            "KeyS"
+          ]
+        }
+      ],
+      "state": {
+        "linkResponse": [
+          {
+            "bounce": null,
+            "flash": null
+          },
+          {
+            "bounce": null,
+            "flash": null
+          }
+        ],
+        "defense": [
+          {
+            "evade": null,
+            "landing": null
+          },
+          {
+            "evade": null,
+            "landing": null
+          }
+        ],
+        "down": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downOpponent": {
+          "state": null,
+          "article": null,
+          "floodCharge": 0,
+          "stoneUses": 0,
+          "itemThrow": null,
+          "itemPickup": null
+        },
+        "downProjectiles": [],
+        "bombs": [],
+        "side": null,
+        "capeLiftUsed": false,
+        "boomerangs": [],
+        "frame": 24,
+        "player": {
+          "x": -12,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": 1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "crouch",
+          "age": 15,
+          "clip": "SquatWait",
+          "poseFrame": 15,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "dummy": {
+          "x": 5,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "facing": -1,
+          "grounded": true,
+          "jumps": 0,
+          "state": "idle",
+          "age": 24,
+          "clip": "Wait1",
+          "poseFrame": 24,
+          "damage": 0,
+          "hitlag": 0,
+          "hitstun": 0,
+          "fastfall": false,
+          "shortHop": false,
+          "ledgeSide": 0,
+          "ledgeCooldown": 0,
+          "invincible": 0,
+          "shield": 60,
+          "shieldStun": 0
+        },
+        "previous": {
+          "axis": 0,
+          "jump": false,
+          "attack": false,
+          "run": false,
+          "down": true,
+          "shield": false,
+          "smash": false,
+          "special": false,
+          "neutral": false,
+          "vertical": -1,
+          "grab": false,
+          "side": false,
+          "downSpecial": false
+        },
+        "grab": null,
+        "hold": null,
+        "quickAttack": null,
+        "smash": null,
+        "ranged": null,
+        "projectiles": [],
+        "nextProjectile": 0,
+        "inhale": null,
+        "copied": null,
+        "capture": null,
+        "cutter": null,
+        "waves": [],
+        "nextWave": 0,
+        "script": null,
+        "comboQueued": false,
+        "hasHit": false,
+        "hits": 0,
+        "lastHit": null,
+        "opponent": {
+          "side": null,
+          "capeLiftUsed": false,
+          "previous": {
+            "axis": 0,
+            "jump": false,
+            "attack": false,
+            "run": false,
+            "down": false,
+            "shield": false,
+            "smash": false,
+            "special": false,
+            "neutral": false,
+            "vertical": 0,
+            "grab": false,
+            "side": false,
+            "downSpecial": false
+          },
+          "script": null,
+          "comboQueued": false,
+          "hasHit": false,
+          "quickAttack": null,
+          "cutter": null,
+          "smash": null,
+          "ranged": null,
+          "inhale": null,
+          "copied": null,
+          "grab": null
+        },
+        "match": {
+          "options": {
+            "mode": "training",
+            "opponent": "cpu",
+            "stocks": 3,
+            "seconds": 180,
+            "fighters": [
+              "pikachu",
+              "mario"
+            ]
+          },
+          "stocks": [
+            3,
+            3
+          ],
+          "status": "playing",
+          "countdown": 0,
+          "remaining": 10800,
+          "winner": null,
+          "lastKO": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "description": "Browser exercise: Kirby meets the underside, moves outward, spends air jumps and climbs the right ledge. This is a reconstruction input route, not a reference-game recording.",
+  "blockedFrame": 131,
+  "steps": [
+    {
+      "frames": 84,
+      "keys": [
+        "KeyD",
+        "ShiftLeft",
+        "KeyS"
+      ]
+    },
+    {
+      "frames": 43,
+      "keys": [
+        "KeyA",
+        "KeyS"
+      ]
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyA",
+        "KeyS",
+        "Space"
+      ]
+    },
+    {
+      "frames": 3,
+      "keys": [
+        "KeyA",
+        "KeyS"
+      ]
+    },
+    {
+      "frames": 27,
+      "keys": [
+        "KeyD"
+      ]
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyD",
+        "Space"
+      ]
+    },
+    {
+      "frames": 4,
+      "keys": []
+    },
+    {
+      "frames": 18,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 5,
+      "keys": []
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyD",
+        "Space"
+      ]
+    },
+    {
+      "frames": 13,
+      "keys": [
+        "KeyD"
+      ]
+    },
+    {
+      "frames": 6,
+      "keys": []
+    },
+    {
+      "frames": 6,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyA",
+        "Space"
+      ]
+    },
+    {
+      "frames": 2,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 3,
+      "keys": []
+    },
+    {
+      "frames": 18,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 21,
+      "keys": []
+    },
+    {
+      "frames": 1,
+      "keys": [
+        "KeyA"
+      ]
+    },
+    {
+      "frames": 34,
+      "keys": []
+    }
+  ]
+}
