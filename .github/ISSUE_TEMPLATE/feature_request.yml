@@ -1,0 +1,24 @@
+name: Feature proposal
+description: Propose an improvement within the project's current scope.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Who would benefit, and what is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the change and how it fits the four-fighter, one-stage scope.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Evidence and validation
+      description: Relevant source references, alternatives and how the change could be tested.

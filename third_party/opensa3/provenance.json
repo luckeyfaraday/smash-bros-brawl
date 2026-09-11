@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/dantarion/opensa3",
+  "commit": "ba3e98271da173606ef52fcd61c0ee96ecc9fa25",
+  "license": "LICENSE.txt",
+  "files": [
+    {
+      "local": "tools/Attributes.txt",
+      "upstream": "OpenSA3/OpenSALib3/Resources/Attributes.txt",
+      "upstreamSha256": "f215a1a42bcd2719003e5507c156c222caf1ef20d7dbf5e2ec34c7b4ec9c4c86",
+      "matchesIgnoringCRLF": true
+    },
+    {
+      "local": "tools/ref/Attributes.txt",
+      "upstream": "OpenSA3/OpenSALib3/Resources/Attributes.txt",
+      "upstreamSha256": "f215a1a42bcd2719003e5507c156c222caf1ef20d7dbf5e2ec34c7b4ec9c4c86",
+      "matchesIgnoringCRLF": true
+    },
+    {
+      "local": "tools/Events.txt",
+      "upstream": "OpenSA3/OpenSALib3/Resources/Events.txt",
+      "upstreamSha256": "5ad4632dc0e7b1173f2285690b26e212f50ba211d544174c08b861e7f20b5a3b",
+      "matchesIgnoringCRLF": true
+    },
+    {
+      "local": "tools/ref/Events.txt",
+      "upstream": "OpenSA3/OpenSALib3/Resources/Events.txt",
+      "upstreamSha256": "5ad4632dc0e7b1173f2285690b26e212f50ba211d544174c08b861e7f20b5a3b",
+      "matchesIgnoringCRLF": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and troubleshooting
+    url: https://github.com/luckeyfaraday/smash-bros-brawl/blob/main/docs/getting-started.md
+    about: Start here for local assets, installation and test setup.
+  - name: Security reporting
+    url: https://github.com/luckeyfaraday/smash-bros-brawl/blob/main/SECURITY.md
+    about: Use the private reporting process for vulnerabilities.

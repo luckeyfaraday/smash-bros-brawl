@@ -1,5 +1,5 @@
 import {createHash} from 'node:crypto';
-import {readFileSync,readdirSync,statSync,writeFileSync} from 'node:fs';
+import {existsSync,readFileSync,readdirSync,statSync,writeFileSync} from 'node:fs';
 import {dirname,join,resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import type {MotionData} from '../src/types';
@@ -43,6 +43,8 @@ function buildFiles(folder:string):string[]{
 export function preparePagesAssets(){
   // Only the disposable Vite output is rewritten. Offline tools retain the exports.
   const output=resolve('dist');
+  const missing=fighterIds.filter(id=>!existsSync(join(output,'assets',id,'motion.json')));
+  if(missing.length)throw new Error(`Missing fighter assets: ${missing.join(', ')}. Follow docs/getting-started.md to prepare local game assets, then run npm run build again. For source-only checks, use npm run check.`);
   for(const id of fighterIds){
     const path=join(output,'assets',id,'motion.json');
     if(statSync(path).size<=CHUNK_BYTES)continue;

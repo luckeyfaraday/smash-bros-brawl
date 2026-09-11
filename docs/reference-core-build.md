@@ -7,14 +7,18 @@ series differs from that binary's recorded source series.
 
 ## Prepare in Ubuntu WSL
 
-These commands use an isolated `/home/alanq/brawl-core-build` directory. Toolchain
-installation does not change shell startup files or the existing Rust default.
-The workspace and adjacent wasm-dolphin checkout are read as source inputs.
+Run these commands inside Ubuntu WSL, replacing the two source paths with your
+checkouts. The build directory is isolated under your Linux home directory.
+Toolchain installation does not change shell startup files or the Rust default.
+The workspace and wasm-dolphin checkout are read as source inputs.
 
-```powershell
-wsl -d Ubuntu --exec bash /mnt/c/Games/smash-bros-brawl/tools/bootstrap_reference_build.sh /home/alanq/brawl-core-build
-wsl -d Ubuntu --exec python3 /mnt/c/Games/smash-bros-brawl/tools/prepare_reference_build.py --workspace /mnt/c/Games/smash-bros-brawl --support /mnt/c/Games/wii-browser/wasm-dolphin --output /home/alanq/brawl-core-build
-wsl -d Ubuntu --exec python3 /mnt/c/Games/smash-bros-brawl/tools/build_reference_core.py --build-root /home/alanq/brawl-core-build --workspace /mnt/c/Games/smash-bros-brawl --jobs 4
+```bash
+repo_dir=/mnt/c/path/to/smash-bros-brawl
+support_dir=/mnt/c/path/to/wasm-dolphin
+build_dir="$HOME/brawl-core-build"
+bash "$repo_dir/tools/bootstrap_reference_build.sh" "$build_dir"
+python3 "$repo_dir/tools/prepare_reference_build.py" --workspace "$repo_dir" --support "$support_dir" --output "$build_dir"
+python3 "$repo_dir/tools/build_reference_core.py" --build-root "$build_dir" --workspace "$repo_dir" --jobs 4
 ```
 
 The first script installs Emscripten 5.0.7 from the pinned emsdk revision,

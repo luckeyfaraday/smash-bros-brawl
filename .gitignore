@@ -2,6 +2,7 @@
 .tools/
 node_modules/
 dist/
+dist-client/
 __pycache__/
 *.pyc
 *.zip
@@ -22,3 +23,5 @@ playwright-report/
 .dev.vars
 .dev.vars.*
 .wrangler/
+.DS_Store
+Thumbs.db
