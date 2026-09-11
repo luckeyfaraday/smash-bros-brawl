@@ -10,8 +10,8 @@ and the output directory to `dist`. Wrangler is pinned in `package.json` and
 installed by `npm ci`. Change the configuration's name before creating the
 project if you want a different name.
 
-The prepared project's address is `https://smash-bros-brawl.pages.dev/`.
-It becomes available after the first deployment.
+The production address is `https://brawl.luckeysystems.com/`, with
+`https://smash-bros-brawl.pages.dev/` also serving the project.
 
 ## Prepare the output
 
@@ -80,6 +80,21 @@ production branch. Cloudflare prints the deployment URL and assigned `pages.dev`
 domain; the exact domain can include a suffix if the name is already taken.
 Verify the game and `/lab` at that URL. A successful local build or GitHub push
 does not publish the site.
+
+## Social link previews
+
+The homepage includes static Open Graph and X card metadata in `index.html`, so
+link crawlers can read the title, description and image without running the game.
+All preview URLs use the production custom domain. The generated artwork is
+tracked in `public/social/`, outside the ignored game exports, and Vite copies it
+to the same `/social/` path in the deployment. See [the artwork prompt and preview
+checks](social-preview.md).
+
+When replacing the artwork, use a new versioned filename and update both
+`og:image` (including `og:image:secure_url`) and `twitter:image`, along with the
+image type, dimensions and alt text. Deploy the HTML and image together using
+the command above. Social platforms maintain their own preview caches, so
+existing posts may retain earlier previews after a deployment.
 
 ## Git integration
 
