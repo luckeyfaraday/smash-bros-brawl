@@ -38,7 +38,7 @@
     "reference:probe": "node tools/probe_reference.mjs"
   },
   "dependencies": {
-    "three": "^0.185.1"
+    "three": "^0.186.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
