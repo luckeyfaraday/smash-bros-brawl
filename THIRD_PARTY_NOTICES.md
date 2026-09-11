@@ -1,8 +1,9 @@
 # Third-party notices and attribution
 
-This repository contains original project code alongside material from other
-sources. A license for the original code has not yet been selected. Any future
-original-code license must not be read as relicensing the items below.
+The [MIT license](LICENSE) applies to original project code and documentation
+whose copyright is held by the project's contributors. It does not relicense
+game-derived material or the third-party portions described below. See also
+[ASSET_NOTICE.md](ASSET_NOTICE.md).
 
 ## Super Smash Bros. Brawl material
 
@@ -46,8 +47,9 @@ files match the upstream resources after normalizing CRLF line endings. The
 [upstream license](third_party/opensa3/LICENSE.txt) and a
 [pinned provenance record](third_party/opensa3/provenance.json) are included.
 These files retain their GPLv3 terms. `tools/fitdump.py` also records BrawlLib
-and OpenSA3 as sources for its format implementation; that provenance must be
-considered when selecting terms for the parser and related tooling.
+and OpenSA3 as sources for its format implementation. Upstream-derived portions
+of the parser and related tooling are outside the MIT grant for original code
+and retain their applicable upstream terms.
 
 ## Dolphin reference experiment
 

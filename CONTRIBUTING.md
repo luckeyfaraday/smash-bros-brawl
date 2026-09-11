@@ -45,9 +45,12 @@ pull request template. Include screenshots for interface changes and exact
 validation commands. Maintainers may request changes or defer work outside the
 current scope.
 
-There is no required CLA or paid contribution process. Do not contribute code
-whose terms you cannot pass on. Original-code licensing is still undecided;
-see [third-party notices](THIRD_PARTY_NOTICES.md) for material with separate terms.
+There is no required CLA or paid contribution process. By submitting original
+code or documentation, you agree to distribute it under this project's
+[MIT license](LICENSE). Changes to third-party material must preserve that
+material's applicable terms, including GPLv3 for OpenSA3 references. Do not
+contribute work whose terms you cannot pass on. See [asset rights](ASSET_NOTICE.md)
+and [third-party notices](THIRD_PARTY_NOTICES.md) for the exclusions and attribution.
 
 ## Reporting problems
 

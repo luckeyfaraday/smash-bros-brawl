@@ -1,6 +1,7 @@
 # Brawl Browser Lab
 
 [![CI](https://github.com/luckeyfaraday/smash-bros-brawl/actions/workflows/ci.yml/badge.svg)](https://github.com/luckeyfaraday/smash-bros-brawl/actions/workflows/ci.yml)
+[![Original code: MIT](https://img.shields.io/badge/original_code-MIT-blue.svg)](LICENSE)
 
 An experimental browser-native reconstruction of **Super Smash Bros. Brawl**
 gameplay, built with TypeScript, Three.js and data from the USA Rev 1 release.
@@ -16,7 +17,17 @@ to the original game has not been established.
 **Game assets are required to play.** A disc image and the exported models,
 textures and animations are not included. Prepare them from your own local
 game files. Extracted AI/stage data, gameplay captures and third-party reference
-material are tracked; see [third-party notices](THIRD_PARTY_NOTICES.md).
+material are tracked. MIT covers original code and documentation only; see
+[asset rights](ASSET_NOTICE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Give a shout-out
+
+If you learn from this project, use its code, stream it or build something with
+it, please credit [Luckey Faraday (@luckeyfaraday)](https://github.com/luckeyfaraday)
+and link back to this repository. The request is optional and adds no conditions
+to the MIT license. Preserve the copyright and permission notice as the license
+requires. [CITATION.cff](CITATION.cff) provides GitHub's **Cite this repository**
+information.
 
 ## Features and scope
 
@@ -98,6 +109,7 @@ Report vulnerabilities through the process in [SECURITY.md](SECURITY.md).
 
 ## Licensing and credits
 
-A license has not yet been selected for the original project code. Third-party
-software, game material and fonts retain their own terms; see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for scope and attribution.
+Original project code and documentation are available under the [MIT license](LICENSE).
+Game-derived material is excluded as described in [ASSET_NOTICE.md](ASSET_NOTICE.md).
+Fonts, OpenSA3 references and other third-party portions retain their separate
+terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for scope and attribution.

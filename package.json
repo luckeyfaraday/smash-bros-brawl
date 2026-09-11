@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Experimental browser-native Brawl gameplay with four fighters and local training tools.",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luckeyfaraday/smash-bros-brawl.git"

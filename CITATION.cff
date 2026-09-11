@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it and credit @luckeyfaraday. This is an optional request, not an additional license condition."
+title: "Brawl Browser Lab"
+type: software
+authors:
+  - family-names: Faraday
+    given-names: Luckey
+    alias: luckeyfaraday
+repository-code: "https://github.com/luckeyfaraday/smash-bros-brawl"
+url: "https://github.com/luckeyfaraday/smash-bros-brawl"
+license: MIT
+abstract: >-
+  An experimental browser-native reconstruction of Brawl gameplay with four
+  fighters, local and CPU matches, and frame-by-frame training tools. MIT applies
+  to original project code and documentation only; third-party and game-derived
+  material retain their separate terms as described in ASSET_NOTICE.md and
+  THIRD_PARTY_NOTICES.md.
